@@ -1,0 +1,1317 @@
+The system is: Darwin - 21.4.0 - arm64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/local/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/Users/jianshuzhao/Github/parasail-sys/parasail/build/CMakeFiles/3.22.3/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/local/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/Users/jianshuzhao/Github/parasail-sys/parasail/build/CMakeFiles/3.22.3/CompilerIdCXX/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Users/jianshuzhao/Github/parasail-sys/parasail/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_476fd/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_476fd.dir/build.make CMakeFiles/cmTC_476fd.dir/build
+Building C object CMakeFiles/cmTC_476fd.dir/CMakeCCompilerABI.c.o
+/usr/local/bin/cc   -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk   -v -Wl,-v -o CMakeFiles/cmTC_476fd.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/Cellar/cmake/3.22.3/share/cmake/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/usr/local/bin/cc
+Target: aarch64-apple-darwin21
+Configured with: ../configure --prefix=/opt/homebrew/Cellar/gcc/11.2.0_3 --libdir=/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11 --disable-nls --enable-checking=release --with-gcc-major-version-only --enable-languages=c,c++,objc,obj-c++,fortran --program-suffix=-11 --with-gmp=/opt/homebrew/opt/gmp --with-mpfr=/opt/homebrew/opt/mpfr --with-mpc=/opt/homebrew/opt/libmpc --with-isl=/opt/homebrew/opt/isl --with-zstd=/opt/homebrew/opt/zstd --with-pkgversion='Homebrew GCC 11.2.0_3' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --build=aarch64-apple-darwin21 --with-system-zlib --disable-multilib --with-native-system-header-dir=/usr/include --with-sysroot=/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.2.0 (Homebrew GCC 11.2.0_3) 
+COLLECT_GCC_OPTIONS='-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk' '-v' '-o' 'CMakeFiles/cmTC_476fd.dir/CMakeCCompilerABI.c.o' '-c' '-mmacosx-version-min=12.3.0' '-asm_macosx_version_min=12.3' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_476fd.dir/'
+ /opt/homebrew/Cellar/gcc/11.2.0_3/libexec/gcc/aarch64-apple-darwin21/11/cc1 -quiet -v -D__DYNAMIC__ -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk /opt/homebrew/Cellar/cmake/3.22.3/share/cmake/Modules/CMakeCCompilerABI.c -fPIC -quiet -dumpdir CMakeFiles/cmTC_476fd.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mmacosx-version-min=12.3.0 -mlittle-endian -mabi=lp64 -version -o /var/folders/mr/8qybn91j5fgdbrcdmq7ckftw0000gn/T//ccoE2qgb.s
+GNU C17 (Homebrew GCC 11.2.0_3) version 11.2.0 (aarch64-apple-darwin21)
+	compiled by GNU C version 11.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/local/include"
+ignoring nonexistent directory "/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/../../../../../../aarch64-apple-darwin21/include"
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /opt/homebrew/include
+ /opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/include
+ /opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/include-fixed
+ /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include
+ /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/System/Library/Frameworks
+End of search list.
+GNU C17 (Homebrew GCC 11.2.0_3) version 11.2.0 (aarch64-apple-darwin21)
+	compiled by GNU C version 11.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: d1e35bccccd935bb1601fdc7ad95091e
+COLLECT_GCC_OPTIONS='-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk' '-v' '-o' 'CMakeFiles/cmTC_476fd.dir/CMakeCCompilerABI.c.o' '-c' '-mmacosx-version-min=12.3.0'  '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_476fd.dir/'
+ as -arch arm64 -v -mmacosx-version-min=12.3 -o CMakeFiles/cmTC_476fd.dir/CMakeCCompilerABI.c.o /var/folders/mr/8qybn91j5fgdbrcdmq7ckftw0000gn/T//ccoE2qgb.s
+Apple clang version 13.1.6 (clang-1316.0.21.2)
+Target: arm64-apple-darwin21.4.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1as -triple arm64-apple-macosx12.3.0 -filetype obj -main-file-name ccoE2qgb.s -target-cpu apple-m1 -target-feature +v8.5a -target-feature +fp-armv8 -target-feature +neon -target-feature +crc -target-feature +crypto -target-feature +dotprod -target-feature +fp16fml -target-feature +ras -target-feature +lse -target-feature +rdm -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -fdebug-compilation-dir=/Users/jianshuzhao/Github/parasail-sys/parasail/build/CMakeFiles/CMakeTmp -dwarf-debug-producer "Apple clang version 13.1.6 (clang-1316.0.21.2)" -dwarf-version=4 -mrelocation-model pic --mrelax-relocations -mllvm -disable-aligned-alloc-awareness=1 -o CMakeFiles/cmTC_476fd.dir/CMakeCCompilerABI.c.o /var/folders/mr/8qybn91j5fgdbrcdmq7ckftw0000gn/T//ccoE2qgb.s
+COMPILER_PATH=/opt/homebrew/Cellar/gcc/11.2.0_3/libexec/gcc/aarch64-apple-darwin21/11/:/opt/homebrew/Cellar/gcc/11.2.0_3/libexec/gcc/aarch64-apple-darwin21/11/:/opt/homebrew/Cellar/gcc/11.2.0_3/libexec/gcc/aarch64-apple-darwin21/:/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/:/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/
+LIBRARY_PATH=/opt/homebrew/lib/:/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/:/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/../../../
+COLLECT_GCC_OPTIONS='-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk' '-v' '-o' 'CMakeFiles/cmTC_476fd.dir/CMakeCCompilerABI.c.o' '-c' '-mmacosx-version-min=12.3.0'  '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_476fd.dir/CMakeCCompilerABI.c.'
+Linking C executable cmTC_476fd
+/opt/homebrew/Cellar/cmake/3.22.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_476fd.dir/link.txt --verbose=1
+/usr/local/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/opt/homebrew/opt/openssl\@1.1/lib -v -Wl,-v CMakeFiles/cmTC_476fd.dir/CMakeCCompilerABI.c.o -o cmTC_476fd 
+Using built-in specs.
+COLLECT_GCC=/usr/local/bin/cc
+COLLECT_LTO_WRAPPER=/opt/homebrew/Cellar/gcc/11.2.0_3/libexec/gcc/aarch64-apple-darwin21/11/lto-wrapper
+Target: aarch64-apple-darwin21
+Configured with: ../configure --prefix=/opt/homebrew/Cellar/gcc/11.2.0_3 --libdir=/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11 --disable-nls --enable-checking=release --with-gcc-major-version-only --enable-languages=c,c++,objc,obj-c++,fortran --program-suffix=-11 --with-gmp=/opt/homebrew/opt/gmp --with-mpfr=/opt/homebrew/opt/mpfr --with-mpc=/opt/homebrew/opt/libmpc --with-isl=/opt/homebrew/opt/isl --with-zstd=/opt/homebrew/opt/zstd --with-pkgversion='Homebrew GCC 11.2.0_3' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --build=aarch64-apple-darwin21 --with-system-zlib --disable-multilib --with-native-system-header-dir=/usr/include --with-sysroot=/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.2.0 (Homebrew GCC 11.2.0_3) 
+COMPILER_PATH=/opt/homebrew/Cellar/gcc/11.2.0_3/libexec/gcc/aarch64-apple-darwin21/11/:/opt/homebrew/Cellar/gcc/11.2.0_3/libexec/gcc/aarch64-apple-darwin21/11/:/opt/homebrew/Cellar/gcc/11.2.0_3/libexec/gcc/aarch64-apple-darwin21/:/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/:/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/
+LIBRARY_PATH=/opt/homebrew/lib/:/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/:/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/../../../
+COLLECT_GCC_OPTIONS='-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk' '-L/opt/homebrew/opt/openssl@1.1/lib' '-v' '-o' 'cmTC_476fd' '-mmacosx-version-min=12.3.0' '-asm_macosx_version_min=12.3' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_476fd.'
+ /opt/homebrew/Cellar/gcc/11.2.0_3/libexec/gcc/aarch64-apple-darwin21/11/collect2 -dynamic -arch arm64 -macosx_version_min 12.3.0 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -weak_reference_mismatches non-weak -o cmTC_476fd -L/opt/homebrew/opt/openssl@1.1/lib -L/opt/homebrew/lib -L/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11 -L/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/../../.. -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_476fd.dir/CMakeCCompilerABI.c.o -lgcc_s.1.1 -lgcc -lSystem -lgcc -no_compact_unwind -rpath @loader_path -rpath /opt/homebrew/lib -rpath /opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11 -rpath /opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/../../.. -v
+collect2 version 11.2.0
+/usr/bin/ld -dynamic -arch arm64 -macosx_version_min 12.3.0 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -weak_reference_mismatches non-weak -o cmTC_476fd -L/opt/homebrew/opt/openssl@1.1/lib -L/opt/homebrew/lib -L/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11 -L/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/../../.. -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_476fd.dir/CMakeCCompilerABI.c.o -lgcc_s.1.1 -lgcc -lSystem -lgcc -no_compact_unwind -rpath @loader_path -rpath /opt/homebrew/lib -rpath /opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11 -rpath /opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/../../.. -v
+@(#)PROGRAM:ld  PROJECT:ld64-762
+BUILD 06:28:58 Feb 18 2022
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+@(#)PROGRAM:ld  PROJECT:ld64-762
+BUILD 06:28:58 Feb 18 2022
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/opt/homebrew/opt/openssl@1.1/lib
+	/opt/homebrew/lib
+	/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11
+	/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11
+	/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/lib
+Framework search paths:
+	/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/opt/homebrew/include]
+    add: [/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/include]
+    add: [/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/include-fixed]
+    add: [/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include]
+    add: [/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/System/Library/Frameworks]
+  end of search list found
+  collapse include dir [/opt/homebrew/include] ==> [/opt/homebrew/include]
+  collapse include dir [/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/include] ==> [/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/include]
+  collapse include dir [/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/include-fixed] ==> [/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/include-fixed]
+  collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include]
+  collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/System/Library/Frameworks] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/System/Library/Frameworks]
+  implicit include dirs: [/opt/homebrew/include;/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/include;/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/include-fixed;/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include;/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/System/Library/Frameworks]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/jianshuzhao/Github/parasail-sys/parasail/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make -f Makefile cmTC_476fd/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_476fd.dir/build.make CMakeFiles/cmTC_476fd.dir/build]
+  ignore line: [Building C object CMakeFiles/cmTC_476fd.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/local/bin/cc   -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk   -v -Wl -v -o CMakeFiles/cmTC_476fd.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/Cellar/cmake/3.22.3/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/local/bin/cc]
+  ignore line: [Target: aarch64-apple-darwin21]
+  ignore line: [Configured with: ../configure --prefix=/opt/homebrew/Cellar/gcc/11.2.0_3 --libdir=/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11 --disable-nls --enable-checking=release --with-gcc-major-version-only --enable-languages=c c++ objc obj-c++ fortran --program-suffix=-11 --with-gmp=/opt/homebrew/opt/gmp --with-mpfr=/opt/homebrew/opt/mpfr --with-mpc=/opt/homebrew/opt/libmpc --with-isl=/opt/homebrew/opt/isl --with-zstd=/opt/homebrew/opt/zstd --with-pkgversion='Homebrew GCC 11.2.0_3' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --build=aarch64-apple-darwin21 --with-system-zlib --disable-multilib --with-native-system-header-dir=/usr/include --with-sysroot=/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.2.0 (Homebrew GCC 11.2.0_3) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk' '-v' '-o' 'CMakeFiles/cmTC_476fd.dir/CMakeCCompilerABI.c.o' '-c' '-mmacosx-version-min=12.3.0' '-asm_macosx_version_min=12.3' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_476fd.dir/']
+  ignore line: [ /opt/homebrew/Cellar/gcc/11.2.0_3/libexec/gcc/aarch64-apple-darwin21/11/cc1 -quiet -v -D__DYNAMIC__ -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk /opt/homebrew/Cellar/cmake/3.22.3/share/cmake/Modules/CMakeCCompilerABI.c -fPIC -quiet -dumpdir CMakeFiles/cmTC_476fd.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mmacosx-version-min=12.3.0 -mlittle-endian -mabi=lp64 -version -o /var/folders/mr/8qybn91j5fgdbrcdmq7ckftw0000gn/T//ccoE2qgb.s]
+  ignore line: [GNU C17 (Homebrew GCC 11.2.0_3) version 11.2.0 (aarch64-apple-darwin21)]
+  ignore line: [	compiled by GNU C version 11.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/../../../../../../aarch64-apple-darwin21/include"]
+  ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/Library/Frameworks"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /opt/homebrew/include]
+  ignore line: [ /opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/include]
+  ignore line: [ /opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/include-fixed]
+  ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include]
+  ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/System/Library/Frameworks]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (Homebrew GCC 11.2.0_3) version 11.2.0 (aarch64-apple-darwin21)]
+  ignore line: [	compiled by GNU C version 11.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: d1e35bccccd935bb1601fdc7ad95091e]
+  ignore line: [COLLECT_GCC_OPTIONS='-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk' '-v' '-o' 'CMakeFiles/cmTC_476fd.dir/CMakeCCompilerABI.c.o' '-c' '-mmacosx-version-min=12.3.0'  '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_476fd.dir/']
+  ignore line: [ as -arch arm64 -v -mmacosx-version-min=12.3 -o CMakeFiles/cmTC_476fd.dir/CMakeCCompilerABI.c.o /var/folders/mr/8qybn91j5fgdbrcdmq7ckftw0000gn/T//ccoE2qgb.s]
+  ignore line: [Apple clang version 13.1.6 (clang-1316.0.21.2)]
+  ignore line: [Target: arm64-apple-darwin21.4.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+  ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1as -triple arm64-apple-macosx12.3.0 -filetype obj -main-file-name ccoE2qgb.s -target-cpu apple-m1 -target-feature +v8.5a -target-feature +fp-armv8 -target-feature +neon -target-feature +crc -target-feature +crypto -target-feature +dotprod -target-feature +fp16fml -target-feature +ras -target-feature +lse -target-feature +rdm -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -fdebug-compilation-dir=/Users/jianshuzhao/Github/parasail-sys/parasail/build/CMakeFiles/CMakeTmp -dwarf-debug-producer "Apple clang version 13.1.6 (clang-1316.0.21.2)" -dwarf-version=4 -mrelocation-model pic --mrelax-relocations -mllvm -disable-aligned-alloc-awareness=1 -o CMakeFiles/cmTC_476fd.dir/CMakeCCompilerABI.c.o /var/folders/mr/8qybn91j5fgdbrcdmq7ckftw0000gn/T//ccoE2qgb.s]
+  ignore line: [COMPILER_PATH=/opt/homebrew/Cellar/gcc/11.2.0_3/libexec/gcc/aarch64-apple-darwin21/11/:/opt/homebrew/Cellar/gcc/11.2.0_3/libexec/gcc/aarch64-apple-darwin21/11/:/opt/homebrew/Cellar/gcc/11.2.0_3/libexec/gcc/aarch64-apple-darwin21/:/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/:/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/]
+  ignore line: [LIBRARY_PATH=/opt/homebrew/lib/:/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/:/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk' '-v' '-o' 'CMakeFiles/cmTC_476fd.dir/CMakeCCompilerABI.c.o' '-c' '-mmacosx-version-min=12.3.0'  '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_476fd.dir/CMakeCCompilerABI.c.']
+  ignore line: [Linking C executable cmTC_476fd]
+  ignore line: [/opt/homebrew/Cellar/cmake/3.22.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_476fd.dir/link.txt --verbose=1]
+  ignore line: [/usr/local/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -Wl -search_paths_first -Wl -headerpad_max_install_names -L/opt/homebrew/opt/openssl\@1.1/lib -v -Wl -v CMakeFiles/cmTC_476fd.dir/CMakeCCompilerABI.c.o -o cmTC_476fd ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/local/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/opt/homebrew/Cellar/gcc/11.2.0_3/libexec/gcc/aarch64-apple-darwin21/11/lto-wrapper]
+  ignore line: [Target: aarch64-apple-darwin21]
+  ignore line: [Configured with: ../configure --prefix=/opt/homebrew/Cellar/gcc/11.2.0_3 --libdir=/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11 --disable-nls --enable-checking=release --with-gcc-major-version-only --enable-languages=c c++ objc obj-c++ fortran --program-suffix=-11 --with-gmp=/opt/homebrew/opt/gmp --with-mpfr=/opt/homebrew/opt/mpfr --with-mpc=/opt/homebrew/opt/libmpc --with-isl=/opt/homebrew/opt/isl --with-zstd=/opt/homebrew/opt/zstd --with-pkgversion='Homebrew GCC 11.2.0_3' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --build=aarch64-apple-darwin21 --with-system-zlib --disable-multilib --with-native-system-header-dir=/usr/include --with-sysroot=/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.2.0 (Homebrew GCC 11.2.0_3) ]
+  ignore line: [COMPILER_PATH=/opt/homebrew/Cellar/gcc/11.2.0_3/libexec/gcc/aarch64-apple-darwin21/11/:/opt/homebrew/Cellar/gcc/11.2.0_3/libexec/gcc/aarch64-apple-darwin21/11/:/opt/homebrew/Cellar/gcc/11.2.0_3/libexec/gcc/aarch64-apple-darwin21/:/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/:/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/]
+  ignore line: [LIBRARY_PATH=/opt/homebrew/lib/:/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/:/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk' '-L/opt/homebrew/opt/openssl@1.1/lib' '-v' '-o' 'cmTC_476fd' '-mmacosx-version-min=12.3.0' '-asm_macosx_version_min=12.3' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_476fd.']
+  link line: [ /opt/homebrew/Cellar/gcc/11.2.0_3/libexec/gcc/aarch64-apple-darwin21/11/collect2 -dynamic -arch arm64 -macosx_version_min 12.3.0 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -weak_reference_mismatches non-weak -o cmTC_476fd -L/opt/homebrew/opt/openssl@1.1/lib -L/opt/homebrew/lib -L/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11 -L/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/../../.. -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_476fd.dir/CMakeCCompilerABI.c.o -lgcc_s.1.1 -lgcc -lSystem -lgcc -no_compact_unwind -rpath @loader_path -rpath /opt/homebrew/lib -rpath /opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11 -rpath /opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/../../.. -v]
+    arg [/opt/homebrew/Cellar/gcc/11.2.0_3/libexec/gcc/aarch64-apple-darwin21/11/collect2] ==> ignore
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [arm64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [12.3.0] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk] ==> ignore
+    arg [-weak_reference_mismatches] ==> ignore
+    arg [non-weak] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_476fd] ==> ignore
+    arg [-L/opt/homebrew/opt/openssl@1.1/lib] ==> dir [/opt/homebrew/opt/openssl@1.1/lib]
+    arg [-L/opt/homebrew/lib] ==> dir [/opt/homebrew/lib]
+    arg [-L/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11] ==> dir [/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11]
+    arg [-L/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/../../..] ==> dir [/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/../../..]
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_476fd.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc_s.1.1] ==> lib [gcc_s.1.1]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lSystem] ==> lib [System]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-no_compact_unwind] ==> ignore
+    arg [-rpath] ==> ignore
+    arg [@loader_path] ==> ignore
+    arg [-rpath] ==> ignore
+    arg [/opt/homebrew/lib] ==> ignore
+    arg [-rpath] ==> ignore
+    arg [/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11] ==> ignore
+    arg [-rpath] ==> ignore
+    arg [/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/../../..] ==> ignore
+    arg [-v] ==> ignore
+  Library search paths: [;/opt/homebrew/opt/openssl@1.1/lib;/opt/homebrew/lib;/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11;/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11;/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/lib]
+  Framework search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/]
+  remove lib [System]
+  collapse library dir [/opt/homebrew/opt/openssl@1.1/lib] ==> [/opt/homebrew/opt/openssl@1.1/lib]
+  collapse library dir [/opt/homebrew/lib] ==> [/opt/homebrew/lib]
+  collapse library dir [/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11] ==> [/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11]
+  collapse library dir [/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/../../..] ==> [/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11]
+  collapse library dir [/opt/homebrew/opt/openssl@1.1/lib] ==> [/opt/homebrew/opt/openssl@1.1/lib]
+  collapse library dir [/opt/homebrew/lib] ==> [/opt/homebrew/lib]
+  collapse library dir [/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11] ==> [/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11]
+  collapse library dir [/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11] ==> [/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11]
+  collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/lib] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/lib]
+  collapse framework dir [/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/System/Library/Frameworks]
+  implicit libs: [gcc_s.1.1;gcc;gcc]
+  implicit objs: []
+  implicit dirs: [/opt/homebrew/opt/openssl@1.1/lib;/opt/homebrew/lib;/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11;/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11;/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/lib]
+  implicit fwks: [/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/System/Library/Frameworks]
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /Users/jianshuzhao/Github/parasail-sys/parasail/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_b6a88/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_b6a88.dir/build.make CMakeFiles/cmTC_b6a88.dir/build
+Building CXX object CMakeFiles/cmTC_b6a88.dir/CMakeCXXCompilerABI.cpp.o
+/usr/local/bin/c++   -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk   -v -Wl,-v -o CMakeFiles/cmTC_b6a88.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/Cellar/cmake/3.22.3/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/usr/local/bin/c++
+Target: aarch64-apple-darwin21
+Configured with: ../configure --prefix=/opt/homebrew/Cellar/gcc/11.2.0_3 --libdir=/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11 --disable-nls --enable-checking=release --with-gcc-major-version-only --enable-languages=c,c++,objc,obj-c++,fortran --program-suffix=-11 --with-gmp=/opt/homebrew/opt/gmp --with-mpfr=/opt/homebrew/opt/mpfr --with-mpc=/opt/homebrew/opt/libmpc --with-isl=/opt/homebrew/opt/isl --with-zstd=/opt/homebrew/opt/zstd --with-pkgversion='Homebrew GCC 11.2.0_3' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --build=aarch64-apple-darwin21 --with-system-zlib --disable-multilib --with-native-system-header-dir=/usr/include --with-sysroot=/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.2.0 (Homebrew GCC 11.2.0_3) 
+COLLECT_GCC_OPTIONS='-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk' '-v' '-o' 'CMakeFiles/cmTC_b6a88.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mmacosx-version-min=12.3.0' '-asm_macosx_version_min=12.3' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_b6a88.dir/'
+ /opt/homebrew/Cellar/gcc/11.2.0_3/libexec/gcc/aarch64-apple-darwin21/11/cc1plus -quiet -v -D__DYNAMIC__ -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk /opt/homebrew/Cellar/cmake/3.22.3/share/cmake/Modules/CMakeCXXCompilerABI.cpp -fPIC -quiet -dumpdir CMakeFiles/cmTC_b6a88.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mmacosx-version-min=12.3.0 -mlittle-endian -mabi=lp64 -version -o /var/folders/mr/8qybn91j5fgdbrcdmq7ckftw0000gn/T//ccTTmQXf.s
+GNU C++17 (Homebrew GCC 11.2.0_3) version 11.2.0 (aarch64-apple-darwin21)
+	compiled by GNU C version 11.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/local/include"
+ignoring nonexistent directory "/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/../../../../../../aarch64-apple-darwin21/include"
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /opt/homebrew/include
+ /opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/../../../../../../include/c++/11
+ /opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/../../../../../../include/c++/11/aarch64-apple-darwin21
+ /opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/../../../../../../include/c++/11/backward
+ /opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/include
+ /opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/include-fixed
+ /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include
+ /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/System/Library/Frameworks
+End of search list.
+GNU C++17 (Homebrew GCC 11.2.0_3) version 11.2.0 (aarch64-apple-darwin21)
+	compiled by GNU C version 11.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: e50123eeac76bc4ebc7d551aece4d80a
+COLLECT_GCC_OPTIONS='-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk' '-v' '-o' 'CMakeFiles/cmTC_b6a88.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mmacosx-version-min=12.3.0'  '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_b6a88.dir/'
+ as -arch arm64 -v -mmacosx-version-min=12.3 -o CMakeFiles/cmTC_b6a88.dir/CMakeCXXCompilerABI.cpp.o /var/folders/mr/8qybn91j5fgdbrcdmq7ckftw0000gn/T//ccTTmQXf.s
+Apple clang version 13.1.6 (clang-1316.0.21.2)
+Target: arm64-apple-darwin21.4.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1as -triple arm64-apple-macosx12.3.0 -filetype obj -main-file-name ccTTmQXf.s -target-cpu apple-m1 -target-feature +v8.5a -target-feature +fp-armv8 -target-feature +neon -target-feature +crc -target-feature +crypto -target-feature +dotprod -target-feature +fp16fml -target-feature +ras -target-feature +lse -target-feature +rdm -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -fdebug-compilation-dir=/Users/jianshuzhao/Github/parasail-sys/parasail/build/CMakeFiles/CMakeTmp -dwarf-debug-producer "Apple clang version 13.1.6 (clang-1316.0.21.2)" -dwarf-version=4 -mrelocation-model pic --mrelax-relocations -mllvm -disable-aligned-alloc-awareness=1 -o CMakeFiles/cmTC_b6a88.dir/CMakeCXXCompilerABI.cpp.o /var/folders/mr/8qybn91j5fgdbrcdmq7ckftw0000gn/T//ccTTmQXf.s
+COMPILER_PATH=/opt/homebrew/Cellar/gcc/11.2.0_3/libexec/gcc/aarch64-apple-darwin21/11/:/opt/homebrew/Cellar/gcc/11.2.0_3/libexec/gcc/aarch64-apple-darwin21/11/:/opt/homebrew/Cellar/gcc/11.2.0_3/libexec/gcc/aarch64-apple-darwin21/:/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/:/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/
+LIBRARY_PATH=/opt/homebrew/lib/:/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/:/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/../../../
+COLLECT_GCC_OPTIONS='-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk' '-v' '-o' 'CMakeFiles/cmTC_b6a88.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mmacosx-version-min=12.3.0'  '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_b6a88.dir/CMakeCXXCompilerABI.cpp.'
+Linking CXX executable cmTC_b6a88
+/opt/homebrew/Cellar/cmake/3.22.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b6a88.dir/link.txt --verbose=1
+/usr/local/bin/c++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/opt/homebrew/opt/openssl\@1.1/lib -v -Wl,-v CMakeFiles/cmTC_b6a88.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_b6a88 
+Using built-in specs.
+COLLECT_GCC=/usr/local/bin/c++
+COLLECT_LTO_WRAPPER=/opt/homebrew/Cellar/gcc/11.2.0_3/libexec/gcc/aarch64-apple-darwin21/11/lto-wrapper
+Target: aarch64-apple-darwin21
+Configured with: ../configure --prefix=/opt/homebrew/Cellar/gcc/11.2.0_3 --libdir=/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11 --disable-nls --enable-checking=release --with-gcc-major-version-only --enable-languages=c,c++,objc,obj-c++,fortran --program-suffix=-11 --with-gmp=/opt/homebrew/opt/gmp --with-mpfr=/opt/homebrew/opt/mpfr --with-mpc=/opt/homebrew/opt/libmpc --with-isl=/opt/homebrew/opt/isl --with-zstd=/opt/homebrew/opt/zstd --with-pkgversion='Homebrew GCC 11.2.0_3' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --build=aarch64-apple-darwin21 --with-system-zlib --disable-multilib --with-native-system-header-dir=/usr/include --with-sysroot=/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.2.0 (Homebrew GCC 11.2.0_3) 
+COMPILER_PATH=/opt/homebrew/Cellar/gcc/11.2.0_3/libexec/gcc/aarch64-apple-darwin21/11/:/opt/homebrew/Cellar/gcc/11.2.0_3/libexec/gcc/aarch64-apple-darwin21/11/:/opt/homebrew/Cellar/gcc/11.2.0_3/libexec/gcc/aarch64-apple-darwin21/:/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/:/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/
+LIBRARY_PATH=/opt/homebrew/lib/:/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/:/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/../../../
+COLLECT_GCC_OPTIONS='-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk' '-L/opt/homebrew/opt/openssl@1.1/lib' '-v' '-o' 'cmTC_b6a88' '-mmacosx-version-min=12.3.0' '-asm_macosx_version_min=12.3' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_b6a88.'
+ /opt/homebrew/Cellar/gcc/11.2.0_3/libexec/gcc/aarch64-apple-darwin21/11/collect2 -dynamic -arch arm64 -macosx_version_min 12.3.0 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -weak_reference_mismatches non-weak -o cmTC_b6a88 -L/opt/homebrew/opt/openssl@1.1/lib -L/opt/homebrew/lib -L/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11 -L/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/../../.. -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_b6a88.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lgcc_s.1.1 -lgcc -lSystem -lgcc -no_compact_unwind -rpath @loader_path -rpath /opt/homebrew/lib -rpath /opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11 -rpath /opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/../../.. -v
+collect2 version 11.2.0
+/usr/bin/ld -dynamic -arch arm64 -macosx_version_min 12.3.0 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -weak_reference_mismatches non-weak -o cmTC_b6a88 -L/opt/homebrew/opt/openssl@1.1/lib -L/opt/homebrew/lib -L/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11 -L/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/../../.. -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_b6a88.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lgcc_s.1.1 -lgcc -lSystem -lgcc -no_compact_unwind -rpath @loader_path -rpath /opt/homebrew/lib -rpath /opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11 -rpath /opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/../../.. -v
+@(#)PROGRAM:ld  PROJECT:ld64-762
+BUILD 06:28:58 Feb 18 2022
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+@(#)PROGRAM:ld  PROJECT:ld64-762
+BUILD 06:28:58 Feb 18 2022
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/opt/homebrew/opt/openssl@1.1/lib
+	/opt/homebrew/lib
+	/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11
+	/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11
+	/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/lib
+Framework search paths:
+	/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/opt/homebrew/include]
+    add: [/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/../../../../../../include/c++/11]
+    add: [/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/../../../../../../include/c++/11/aarch64-apple-darwin21]
+    add: [/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/../../../../../../include/c++/11/backward]
+    add: [/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/include]
+    add: [/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/include-fixed]
+    add: [/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include]
+    add: [/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/System/Library/Frameworks]
+  end of search list found
+  collapse include dir [/opt/homebrew/include] ==> [/opt/homebrew/include]
+  collapse include dir [/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/../../../../../../include/c++/11] ==> [/opt/homebrew/Cellar/gcc/11.2.0_3/include/c++/11]
+  collapse include dir [/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/../../../../../../include/c++/11/aarch64-apple-darwin21] ==> [/opt/homebrew/Cellar/gcc/11.2.0_3/include/c++/11/aarch64-apple-darwin21]
+  collapse include dir [/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/../../../../../../include/c++/11/backward] ==> [/opt/homebrew/Cellar/gcc/11.2.0_3/include/c++/11/backward]
+  collapse include dir [/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/include] ==> [/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/include]
+  collapse include dir [/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/include-fixed] ==> [/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/include-fixed]
+  collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include]
+  collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/System/Library/Frameworks] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/System/Library/Frameworks]
+  implicit include dirs: [/opt/homebrew/include;/opt/homebrew/Cellar/gcc/11.2.0_3/include/c++/11;/opt/homebrew/Cellar/gcc/11.2.0_3/include/c++/11/aarch64-apple-darwin21;/opt/homebrew/Cellar/gcc/11.2.0_3/include/c++/11/backward;/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/include;/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/include-fixed;/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include;/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/System/Library/Frameworks]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/jianshuzhao/Github/parasail-sys/parasail/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make -f Makefile cmTC_b6a88/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_b6a88.dir/build.make CMakeFiles/cmTC_b6a88.dir/build]
+  ignore line: [Building CXX object CMakeFiles/cmTC_b6a88.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/local/bin/c++   -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk   -v -Wl -v -o CMakeFiles/cmTC_b6a88.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/Cellar/cmake/3.22.3/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/local/bin/c++]
+  ignore line: [Target: aarch64-apple-darwin21]
+  ignore line: [Configured with: ../configure --prefix=/opt/homebrew/Cellar/gcc/11.2.0_3 --libdir=/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11 --disable-nls --enable-checking=release --with-gcc-major-version-only --enable-languages=c c++ objc obj-c++ fortran --program-suffix=-11 --with-gmp=/opt/homebrew/opt/gmp --with-mpfr=/opt/homebrew/opt/mpfr --with-mpc=/opt/homebrew/opt/libmpc --with-isl=/opt/homebrew/opt/isl --with-zstd=/opt/homebrew/opt/zstd --with-pkgversion='Homebrew GCC 11.2.0_3' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --build=aarch64-apple-darwin21 --with-system-zlib --disable-multilib --with-native-system-header-dir=/usr/include --with-sysroot=/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.2.0 (Homebrew GCC 11.2.0_3) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk' '-v' '-o' 'CMakeFiles/cmTC_b6a88.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mmacosx-version-min=12.3.0' '-asm_macosx_version_min=12.3' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_b6a88.dir/']
+  ignore line: [ /opt/homebrew/Cellar/gcc/11.2.0_3/libexec/gcc/aarch64-apple-darwin21/11/cc1plus -quiet -v -D__DYNAMIC__ -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk /opt/homebrew/Cellar/cmake/3.22.3/share/cmake/Modules/CMakeCXXCompilerABI.cpp -fPIC -quiet -dumpdir CMakeFiles/cmTC_b6a88.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mmacosx-version-min=12.3.0 -mlittle-endian -mabi=lp64 -version -o /var/folders/mr/8qybn91j5fgdbrcdmq7ckftw0000gn/T//ccTTmQXf.s]
+  ignore line: [GNU C++17 (Homebrew GCC 11.2.0_3) version 11.2.0 (aarch64-apple-darwin21)]
+  ignore line: [	compiled by GNU C version 11.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/../../../../../../aarch64-apple-darwin21/include"]
+  ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/Library/Frameworks"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /opt/homebrew/include]
+  ignore line: [ /opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/../../../../../../include/c++/11]
+  ignore line: [ /opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/../../../../../../include/c++/11/aarch64-apple-darwin21]
+  ignore line: [ /opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/../../../../../../include/c++/11/backward]
+  ignore line: [ /opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/include]
+  ignore line: [ /opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/include-fixed]
+  ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include]
+  ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/System/Library/Frameworks]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++17 (Homebrew GCC 11.2.0_3) version 11.2.0 (aarch64-apple-darwin21)]
+  ignore line: [	compiled by GNU C version 11.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: e50123eeac76bc4ebc7d551aece4d80a]
+  ignore line: [COLLECT_GCC_OPTIONS='-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk' '-v' '-o' 'CMakeFiles/cmTC_b6a88.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mmacosx-version-min=12.3.0'  '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_b6a88.dir/']
+  ignore line: [ as -arch arm64 -v -mmacosx-version-min=12.3 -o CMakeFiles/cmTC_b6a88.dir/CMakeCXXCompilerABI.cpp.o /var/folders/mr/8qybn91j5fgdbrcdmq7ckftw0000gn/T//ccTTmQXf.s]
+  ignore line: [Apple clang version 13.1.6 (clang-1316.0.21.2)]
+  ignore line: [Target: arm64-apple-darwin21.4.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+  ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1as -triple arm64-apple-macosx12.3.0 -filetype obj -main-file-name ccTTmQXf.s -target-cpu apple-m1 -target-feature +v8.5a -target-feature +fp-armv8 -target-feature +neon -target-feature +crc -target-feature +crypto -target-feature +dotprod -target-feature +fp16fml -target-feature +ras -target-feature +lse -target-feature +rdm -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -fdebug-compilation-dir=/Users/jianshuzhao/Github/parasail-sys/parasail/build/CMakeFiles/CMakeTmp -dwarf-debug-producer "Apple clang version 13.1.6 (clang-1316.0.21.2)" -dwarf-version=4 -mrelocation-model pic --mrelax-relocations -mllvm -disable-aligned-alloc-awareness=1 -o CMakeFiles/cmTC_b6a88.dir/CMakeCXXCompilerABI.cpp.o /var/folders/mr/8qybn91j5fgdbrcdmq7ckftw0000gn/T//ccTTmQXf.s]
+  ignore line: [COMPILER_PATH=/opt/homebrew/Cellar/gcc/11.2.0_3/libexec/gcc/aarch64-apple-darwin21/11/:/opt/homebrew/Cellar/gcc/11.2.0_3/libexec/gcc/aarch64-apple-darwin21/11/:/opt/homebrew/Cellar/gcc/11.2.0_3/libexec/gcc/aarch64-apple-darwin21/:/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/:/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/]
+  ignore line: [LIBRARY_PATH=/opt/homebrew/lib/:/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/:/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk' '-v' '-o' 'CMakeFiles/cmTC_b6a88.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mmacosx-version-min=12.3.0'  '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_b6a88.dir/CMakeCXXCompilerABI.cpp.']
+  ignore line: [Linking CXX executable cmTC_b6a88]
+  ignore line: [/opt/homebrew/Cellar/cmake/3.22.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b6a88.dir/link.txt --verbose=1]
+  ignore line: [/usr/local/bin/c++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -Wl -search_paths_first -Wl -headerpad_max_install_names -L/opt/homebrew/opt/openssl\@1.1/lib -v -Wl -v CMakeFiles/cmTC_b6a88.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_b6a88 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/local/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/opt/homebrew/Cellar/gcc/11.2.0_3/libexec/gcc/aarch64-apple-darwin21/11/lto-wrapper]
+  ignore line: [Target: aarch64-apple-darwin21]
+  ignore line: [Configured with: ../configure --prefix=/opt/homebrew/Cellar/gcc/11.2.0_3 --libdir=/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11 --disable-nls --enable-checking=release --with-gcc-major-version-only --enable-languages=c c++ objc obj-c++ fortran --program-suffix=-11 --with-gmp=/opt/homebrew/opt/gmp --with-mpfr=/opt/homebrew/opt/mpfr --with-mpc=/opt/homebrew/opt/libmpc --with-isl=/opt/homebrew/opt/isl --with-zstd=/opt/homebrew/opt/zstd --with-pkgversion='Homebrew GCC 11.2.0_3' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --build=aarch64-apple-darwin21 --with-system-zlib --disable-multilib --with-native-system-header-dir=/usr/include --with-sysroot=/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.2.0 (Homebrew GCC 11.2.0_3) ]
+  ignore line: [COMPILER_PATH=/opt/homebrew/Cellar/gcc/11.2.0_3/libexec/gcc/aarch64-apple-darwin21/11/:/opt/homebrew/Cellar/gcc/11.2.0_3/libexec/gcc/aarch64-apple-darwin21/11/:/opt/homebrew/Cellar/gcc/11.2.0_3/libexec/gcc/aarch64-apple-darwin21/:/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/:/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/]
+  ignore line: [LIBRARY_PATH=/opt/homebrew/lib/:/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/:/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk' '-L/opt/homebrew/opt/openssl@1.1/lib' '-v' '-o' 'cmTC_b6a88' '-mmacosx-version-min=12.3.0' '-asm_macosx_version_min=12.3' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_b6a88.']
+  link line: [ /opt/homebrew/Cellar/gcc/11.2.0_3/libexec/gcc/aarch64-apple-darwin21/11/collect2 -dynamic -arch arm64 -macosx_version_min 12.3.0 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -weak_reference_mismatches non-weak -o cmTC_b6a88 -L/opt/homebrew/opt/openssl@1.1/lib -L/opt/homebrew/lib -L/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11 -L/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/../../.. -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_b6a88.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lgcc_s.1.1 -lgcc -lSystem -lgcc -no_compact_unwind -rpath @loader_path -rpath /opt/homebrew/lib -rpath /opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11 -rpath /opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/../../.. -v]
+    arg [/opt/homebrew/Cellar/gcc/11.2.0_3/libexec/gcc/aarch64-apple-darwin21/11/collect2] ==> ignore
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [arm64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [12.3.0] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk] ==> ignore
+    arg [-weak_reference_mismatches] ==> ignore
+    arg [non-weak] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_b6a88] ==> ignore
+    arg [-L/opt/homebrew/opt/openssl@1.1/lib] ==> dir [/opt/homebrew/opt/openssl@1.1/lib]
+    arg [-L/opt/homebrew/lib] ==> dir [/opt/homebrew/lib]
+    arg [-L/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11] ==> dir [/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11]
+    arg [-L/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/../../..] ==> dir [/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/../../..]
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_b6a88.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lgcc_s.1.1] ==> lib [gcc_s.1.1]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lSystem] ==> lib [System]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-no_compact_unwind] ==> ignore
+    arg [-rpath] ==> ignore
+    arg [@loader_path] ==> ignore
+    arg [-rpath] ==> ignore
+    arg [/opt/homebrew/lib] ==> ignore
+    arg [-rpath] ==> ignore
+    arg [/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11] ==> ignore
+    arg [-rpath] ==> ignore
+    arg [/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/../../..] ==> ignore
+    arg [-v] ==> ignore
+  Library search paths: [;/opt/homebrew/opt/openssl@1.1/lib;/opt/homebrew/lib;/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11;/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11;/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/lib]
+  Framework search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/]
+  remove lib [System]
+  collapse library dir [/opt/homebrew/opt/openssl@1.1/lib] ==> [/opt/homebrew/opt/openssl@1.1/lib]
+  collapse library dir [/opt/homebrew/lib] ==> [/opt/homebrew/lib]
+  collapse library dir [/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11] ==> [/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11]
+  collapse library dir [/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/../../..] ==> [/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11]
+  collapse library dir [/opt/homebrew/opt/openssl@1.1/lib] ==> [/opt/homebrew/opt/openssl@1.1/lib]
+  collapse library dir [/opt/homebrew/lib] ==> [/opt/homebrew/lib]
+  collapse library dir [/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11] ==> [/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11]
+  collapse library dir [/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11] ==> [/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11]
+  collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/lib] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/lib]
+  collapse framework dir [/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/System/Library/Frameworks]
+  implicit libs: [stdc++;gcc_s.1.1;gcc;gcc]
+  implicit objs: []
+  implicit dirs: [/opt/homebrew/opt/openssl@1.1/lib;/opt/homebrew/lib;/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11;/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11;/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/lib]
+  implicit fwks: [/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/System/Library/Frameworks]
+
+
+Performing C SOURCE FILE Test HAVE_NEON succeeded with the following output:
+Change Dir: /Users/jianshuzhao/Github/parasail-sys/parasail/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_0add7/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_0add7.dir/build.make CMakeFiles/cmTC_0add7.dir/build
+Building C object CMakeFiles/cmTC_0add7.dir/src.c.o
+/usr/local/bin/cc -DHAVE_NEON  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fPIE -o CMakeFiles/cmTC_0add7.dir/src.c.o -c /Users/jianshuzhao/Github/parasail-sys/parasail/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_0add7
+/opt/homebrew/Cellar/cmake/3.22.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0add7.dir/link.txt --verbose=1
+/usr/local/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/opt/homebrew/opt/openssl\@1.1/lib  CMakeFiles/cmTC_0add7.dir/src.c.o -o cmTC_0add7 
+
+
+Source file was:
+
+#include <arm_neon.h>
+uint32x4_t double_elements(uint32x4_t input)
+{
+    return(vaddq_u32(input, input));
+}
+int main(void)
+{
+    uint32x4_t one;
+    uint32x4_t two = double_elements(one);
+    return 0;
+}
+
+Detecting C OpenMP compiler ABI info compiled with the following output:
+Change Dir: /Users/jianshuzhao/Github/parasail-sys/parasail/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_56e7d/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_56e7d.dir/build.make CMakeFiles/cmTC_56e7d.dir/build
+Building C object CMakeFiles/cmTC_56e7d.dir/OpenMPTryFlag.c.o
+/usr/local/bin/cc   -fopenmp -v -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fPIE -o CMakeFiles/cmTC_56e7d.dir/OpenMPTryFlag.c.o -c /Users/jianshuzhao/Github/parasail-sys/parasail/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+Using built-in specs.
+COLLECT_GCC=/usr/local/bin/cc
+Target: aarch64-apple-darwin21
+Configured with: ../configure --prefix=/opt/homebrew/Cellar/gcc/11.2.0_3 --libdir=/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11 --disable-nls --enable-checking=release --with-gcc-major-version-only --enable-languages=c,c++,objc,obj-c++,fortran --program-suffix=-11 --with-gmp=/opt/homebrew/opt/gmp --with-mpfr=/opt/homebrew/opt/mpfr --with-mpc=/opt/homebrew/opt/libmpc --with-isl=/opt/homebrew/opt/isl --with-zstd=/opt/homebrew/opt/zstd --with-pkgversion='Homebrew GCC 11.2.0_3' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --build=aarch64-apple-darwin21 --with-system-zlib --disable-multilib --with-native-system-header-dir=/usr/include --with-sysroot=/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.2.0 (Homebrew GCC 11.2.0_3) 
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk' '-fPIE' '-o' 'CMakeFiles/cmTC_56e7d.dir/OpenMPTryFlag.c.o' '-c' '-mmacosx-version-min=12.3.0' '-asm_macosx_version_min=12.3' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_56e7d.dir/'
+ /opt/homebrew/Cellar/gcc/11.2.0_3/libexec/gcc/aarch64-apple-darwin21/11/cc1 -quiet -v -D__DYNAMIC__ -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk /Users/jianshuzhao/Github/parasail-sys/parasail/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c -fPIC -quiet -dumpdir CMakeFiles/cmTC_56e7d.dir/ -dumpbase OpenMPTryFlag.c.c -dumpbase-ext .c -mmacosx-version-min=12.3.0 -mlittle-endian -mabi=lp64 -version -fopenmp -fPIE -o /var/folders/mr/8qybn91j5fgdbrcdmq7ckftw0000gn/T//ccT5ZU5o.s
+GNU C17 (Homebrew GCC 11.2.0_3) version 11.2.0 (aarch64-apple-darwin21)
+	compiled by GNU C version 11.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/local/include"
+ignoring nonexistent directory "/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/../../../../../../aarch64-apple-darwin21/include"
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /opt/homebrew/include
+ /opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/include
+ /opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/include-fixed
+ /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include
+ /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/System/Library/Frameworks
+End of search list.
+GNU C17 (Homebrew GCC 11.2.0_3) version 11.2.0 (aarch64-apple-darwin21)
+	compiled by GNU C version 11.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: d1e35bccccd935bb1601fdc7ad95091e
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk' '-fPIE' '-o' 'CMakeFiles/cmTC_56e7d.dir/OpenMPTryFlag.c.o' '-c' '-mmacosx-version-min=12.3.0'  '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_56e7d.dir/'
+ as -arch arm64 -v -mmacosx-version-min=12.3 -o CMakeFiles/cmTC_56e7d.dir/OpenMPTryFlag.c.o /var/folders/mr/8qybn91j5fgdbrcdmq7ckftw0000gn/T//ccT5ZU5o.s
+Apple clang version 13.1.6 (clang-1316.0.21.2)
+Target: arm64-apple-darwin21.4.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1as -triple arm64-apple-macosx12.3.0 -filetype obj -main-file-name ccT5ZU5o.s -target-cpu apple-m1 -target-feature +v8.5a -target-feature +fp-armv8 -target-feature +neon -target-feature +crc -target-feature +crypto -target-feature +dotprod -target-feature +fp16fml -target-feature +ras -target-feature +lse -target-feature +rdm -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -fdebug-compilation-dir=/Users/jianshuzhao/Github/parasail-sys/parasail/build/CMakeFiles/CMakeTmp -dwarf-debug-producer "Apple clang version 13.1.6 (clang-1316.0.21.2)" -dwarf-version=4 -mrelocation-model pic --mrelax-relocations -mllvm -disable-aligned-alloc-awareness=1 -o CMakeFiles/cmTC_56e7d.dir/OpenMPTryFlag.c.o /var/folders/mr/8qybn91j5fgdbrcdmq7ckftw0000gn/T//ccT5ZU5o.s
+COMPILER_PATH=/opt/homebrew/Cellar/gcc/11.2.0_3/libexec/gcc/aarch64-apple-darwin21/11/:/opt/homebrew/Cellar/gcc/11.2.0_3/libexec/gcc/aarch64-apple-darwin21/11/:/opt/homebrew/Cellar/gcc/11.2.0_3/libexec/gcc/aarch64-apple-darwin21/:/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/:/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/
+LIBRARY_PATH=/opt/homebrew/lib/:/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/:/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/../../../
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk' '-fPIE' '-o' 'CMakeFiles/cmTC_56e7d.dir/OpenMPTryFlag.c.o' '-c' '-mmacosx-version-min=12.3.0'  '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_56e7d.dir/OpenMPTryFlag.c.'
+Linking C executable cmTC_56e7d
+/opt/homebrew/Cellar/cmake/3.22.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_56e7d.dir/link.txt --verbose=1
+/usr/local/bin/cc  -fopenmp -v -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/opt/homebrew/opt/openssl\@1.1/lib  CMakeFiles/cmTC_56e7d.dir/OpenMPTryFlag.c.o -o cmTC_56e7d  -v -Wl,-v 
+Using built-in specs.
+COLLECT_GCC=/usr/local/bin/cc
+COLLECT_LTO_WRAPPER=/opt/homebrew/Cellar/gcc/11.2.0_3/libexec/gcc/aarch64-apple-darwin21/11/lto-wrapper
+Target: aarch64-apple-darwin21
+Configured with: ../configure --prefix=/opt/homebrew/Cellar/gcc/11.2.0_3 --libdir=/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11 --disable-nls --enable-checking=release --with-gcc-major-version-only --enable-languages=c,c++,objc,obj-c++,fortran --program-suffix=-11 --with-gmp=/opt/homebrew/opt/gmp --with-mpfr=/opt/homebrew/opt/mpfr --with-mpc=/opt/homebrew/opt/libmpc --with-isl=/opt/homebrew/opt/isl --with-zstd=/opt/homebrew/opt/zstd --with-pkgversion='Homebrew GCC 11.2.0_3' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --build=aarch64-apple-darwin21 --with-system-zlib --disable-multilib --with-native-system-header-dir=/usr/include --with-sysroot=/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.2.0 (Homebrew GCC 11.2.0_3) 
+COMPILER_PATH=/opt/homebrew/Cellar/gcc/11.2.0_3/libexec/gcc/aarch64-apple-darwin21/11/:/opt/homebrew/Cellar/gcc/11.2.0_3/libexec/gcc/aarch64-apple-darwin21/11/:/opt/homebrew/Cellar/gcc/11.2.0_3/libexec/gcc/aarch64-apple-darwin21/:/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/:/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/
+LIBRARY_PATH=/opt/homebrew/lib/:/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/:/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/../../../
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk' '-L/opt/homebrew/opt/openssl@1.1/lib' '-o' 'cmTC_56e7d' '-v' '-mmacosx-version-min=12.3.0' '-asm_macosx_version_min=12.3' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_56e7d.'
+ /opt/homebrew/Cellar/gcc/11.2.0_3/libexec/gcc/aarch64-apple-darwin21/11/collect2 -dynamic -arch arm64 -macosx_version_min 12.3.0 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -weak_reference_mismatches non-weak -o cmTC_56e7d -L/opt/homebrew/opt/openssl@1.1/lib -L/opt/homebrew/lib -L/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11 -L/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/../../.. -search_paths_first -headerpad_max_install_names CMakeFiles/cmTC_56e7d.dir/OpenMPTryFlag.c.o -v -lgomp -lgcc_s.1.1 -lgcc -lSystem -lgcc -no_compact_unwind -rpath @loader_path -rpath /opt/homebrew/lib -rpath /opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11 -rpath /opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/../../.. -v -v
+collect2 version 11.2.0
+/usr/bin/ld -dynamic -arch arm64 -macosx_version_min 12.3.0 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -weak_reference_mismatches non-weak -o cmTC_56e7d -L/opt/homebrew/opt/openssl@1.1/lib -L/opt/homebrew/lib -L/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11 -L/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/../../.. -search_paths_first -headerpad_max_install_names CMakeFiles/cmTC_56e7d.dir/OpenMPTryFlag.c.o -v -lgomp -lgcc_s.1.1 -lgcc -lSystem -lgcc -no_compact_unwind -rpath @loader_path -rpath /opt/homebrew/lib -rpath /opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11 -rpath /opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/../../.. -v -v
+@(#)PROGRAM:ld  PROJECT:ld64-762
+BUILD 06:28:58 Feb 18 2022
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+@(#)PROGRAM:ld  PROJECT:ld64-762
+BUILD 06:28:58 Feb 18 2022
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+@(#)PROGRAM:ld  PROJECT:ld64-762
+BUILD 06:28:58 Feb 18 2022
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/opt/homebrew/opt/openssl@1.1/lib
+	/opt/homebrew/lib
+	/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11
+	/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11
+	/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/lib
+Framework search paths:
+	/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/
+
+
+
+Parsed C OpenMP implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/jianshuzhao/Github/parasail-sys/parasail/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make -f Makefile cmTC_56e7d/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_56e7d.dir/build.make CMakeFiles/cmTC_56e7d.dir/build]
+  ignore line: [Building C object CMakeFiles/cmTC_56e7d.dir/OpenMPTryFlag.c.o]
+  ignore line: [/usr/local/bin/cc   -fopenmp -v -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fPIE -o CMakeFiles/cmTC_56e7d.dir/OpenMPTryFlag.c.o -c /Users/jianshuzhao/Github/parasail-sys/parasail/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/local/bin/cc]
+  ignore line: [Target: aarch64-apple-darwin21]
+  ignore line: [Configured with: ../configure --prefix=/opt/homebrew/Cellar/gcc/11.2.0_3 --libdir=/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11 --disable-nls --enable-checking=release --with-gcc-major-version-only --enable-languages=c c++ objc obj-c++ fortran --program-suffix=-11 --with-gmp=/opt/homebrew/opt/gmp --with-mpfr=/opt/homebrew/opt/mpfr --with-mpc=/opt/homebrew/opt/libmpc --with-isl=/opt/homebrew/opt/isl --with-zstd=/opt/homebrew/opt/zstd --with-pkgversion='Homebrew GCC 11.2.0_3' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --build=aarch64-apple-darwin21 --with-system-zlib --disable-multilib --with-native-system-header-dir=/usr/include --with-sysroot=/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.2.0 (Homebrew GCC 11.2.0_3) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk' '-fPIE' '-o' 'CMakeFiles/cmTC_56e7d.dir/OpenMPTryFlag.c.o' '-c' '-mmacosx-version-min=12.3.0' '-asm_macosx_version_min=12.3' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_56e7d.dir/']
+  ignore line: [ /opt/homebrew/Cellar/gcc/11.2.0_3/libexec/gcc/aarch64-apple-darwin21/11/cc1 -quiet -v -D__DYNAMIC__ -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk /Users/jianshuzhao/Github/parasail-sys/parasail/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c -fPIC -quiet -dumpdir CMakeFiles/cmTC_56e7d.dir/ -dumpbase OpenMPTryFlag.c.c -dumpbase-ext .c -mmacosx-version-min=12.3.0 -mlittle-endian -mabi=lp64 -version -fopenmp -fPIE -o /var/folders/mr/8qybn91j5fgdbrcdmq7ckftw0000gn/T//ccT5ZU5o.s]
+  ignore line: [GNU C17 (Homebrew GCC 11.2.0_3) version 11.2.0 (aarch64-apple-darwin21)]
+  ignore line: [	compiled by GNU C version 11.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/../../../../../../aarch64-apple-darwin21/include"]
+  ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/Library/Frameworks"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /opt/homebrew/include]
+  ignore line: [ /opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/include]
+  ignore line: [ /opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/include-fixed]
+  ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include]
+  ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/System/Library/Frameworks]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (Homebrew GCC 11.2.0_3) version 11.2.0 (aarch64-apple-darwin21)]
+  ignore line: [	compiled by GNU C version 11.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: d1e35bccccd935bb1601fdc7ad95091e]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk' '-fPIE' '-o' 'CMakeFiles/cmTC_56e7d.dir/OpenMPTryFlag.c.o' '-c' '-mmacosx-version-min=12.3.0'  '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_56e7d.dir/']
+  ignore line: [ as -arch arm64 -v -mmacosx-version-min=12.3 -o CMakeFiles/cmTC_56e7d.dir/OpenMPTryFlag.c.o /var/folders/mr/8qybn91j5fgdbrcdmq7ckftw0000gn/T//ccT5ZU5o.s]
+  ignore line: [Apple clang version 13.1.6 (clang-1316.0.21.2)]
+  ignore line: [Target: arm64-apple-darwin21.4.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+  ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1as -triple arm64-apple-macosx12.3.0 -filetype obj -main-file-name ccT5ZU5o.s -target-cpu apple-m1 -target-feature +v8.5a -target-feature +fp-armv8 -target-feature +neon -target-feature +crc -target-feature +crypto -target-feature +dotprod -target-feature +fp16fml -target-feature +ras -target-feature +lse -target-feature +rdm -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -fdebug-compilation-dir=/Users/jianshuzhao/Github/parasail-sys/parasail/build/CMakeFiles/CMakeTmp -dwarf-debug-producer "Apple clang version 13.1.6 (clang-1316.0.21.2)" -dwarf-version=4 -mrelocation-model pic --mrelax-relocations -mllvm -disable-aligned-alloc-awareness=1 -o CMakeFiles/cmTC_56e7d.dir/OpenMPTryFlag.c.o /var/folders/mr/8qybn91j5fgdbrcdmq7ckftw0000gn/T//ccT5ZU5o.s]
+  ignore line: [COMPILER_PATH=/opt/homebrew/Cellar/gcc/11.2.0_3/libexec/gcc/aarch64-apple-darwin21/11/:/opt/homebrew/Cellar/gcc/11.2.0_3/libexec/gcc/aarch64-apple-darwin21/11/:/opt/homebrew/Cellar/gcc/11.2.0_3/libexec/gcc/aarch64-apple-darwin21/:/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/:/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/]
+  ignore line: [LIBRARY_PATH=/opt/homebrew/lib/:/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/:/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk' '-fPIE' '-o' 'CMakeFiles/cmTC_56e7d.dir/OpenMPTryFlag.c.o' '-c' '-mmacosx-version-min=12.3.0'  '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_56e7d.dir/OpenMPTryFlag.c.']
+  ignore line: [Linking C executable cmTC_56e7d]
+  ignore line: [/opt/homebrew/Cellar/cmake/3.22.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_56e7d.dir/link.txt --verbose=1]
+  ignore line: [/usr/local/bin/cc  -fopenmp -v -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -Wl -search_paths_first -Wl -headerpad_max_install_names -L/opt/homebrew/opt/openssl\@1.1/lib  CMakeFiles/cmTC_56e7d.dir/OpenMPTryFlag.c.o -o cmTC_56e7d  -v -Wl -v ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/local/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/opt/homebrew/Cellar/gcc/11.2.0_3/libexec/gcc/aarch64-apple-darwin21/11/lto-wrapper]
+  ignore line: [Target: aarch64-apple-darwin21]
+  ignore line: [Configured with: ../configure --prefix=/opt/homebrew/Cellar/gcc/11.2.0_3 --libdir=/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11 --disable-nls --enable-checking=release --with-gcc-major-version-only --enable-languages=c c++ objc obj-c++ fortran --program-suffix=-11 --with-gmp=/opt/homebrew/opt/gmp --with-mpfr=/opt/homebrew/opt/mpfr --with-mpc=/opt/homebrew/opt/libmpc --with-isl=/opt/homebrew/opt/isl --with-zstd=/opt/homebrew/opt/zstd --with-pkgversion='Homebrew GCC 11.2.0_3' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --build=aarch64-apple-darwin21 --with-system-zlib --disable-multilib --with-native-system-header-dir=/usr/include --with-sysroot=/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.2.0 (Homebrew GCC 11.2.0_3) ]
+  ignore line: [COMPILER_PATH=/opt/homebrew/Cellar/gcc/11.2.0_3/libexec/gcc/aarch64-apple-darwin21/11/:/opt/homebrew/Cellar/gcc/11.2.0_3/libexec/gcc/aarch64-apple-darwin21/11/:/opt/homebrew/Cellar/gcc/11.2.0_3/libexec/gcc/aarch64-apple-darwin21/:/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/:/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/]
+  ignore line: [LIBRARY_PATH=/opt/homebrew/lib/:/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/:/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk' '-L/opt/homebrew/opt/openssl@1.1/lib' '-o' 'cmTC_56e7d' '-v' '-mmacosx-version-min=12.3.0' '-asm_macosx_version_min=12.3' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_56e7d.']
+  link line: [ /opt/homebrew/Cellar/gcc/11.2.0_3/libexec/gcc/aarch64-apple-darwin21/11/collect2 -dynamic -arch arm64 -macosx_version_min 12.3.0 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -weak_reference_mismatches non-weak -o cmTC_56e7d -L/opt/homebrew/opt/openssl@1.1/lib -L/opt/homebrew/lib -L/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11 -L/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/../../.. -search_paths_first -headerpad_max_install_names CMakeFiles/cmTC_56e7d.dir/OpenMPTryFlag.c.o -v -lgomp -lgcc_s.1.1 -lgcc -lSystem -lgcc -no_compact_unwind -rpath @loader_path -rpath /opt/homebrew/lib -rpath /opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11 -rpath /opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/../../.. -v -v]
+    arg [/opt/homebrew/Cellar/gcc/11.2.0_3/libexec/gcc/aarch64-apple-darwin21/11/collect2] ==> ignore
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [arm64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [12.3.0] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk] ==> ignore
+    arg [-weak_reference_mismatches] ==> ignore
+    arg [non-weak] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_56e7d] ==> ignore
+    arg [-L/opt/homebrew/opt/openssl@1.1/lib] ==> dir [/opt/homebrew/opt/openssl@1.1/lib]
+    arg [-L/opt/homebrew/lib] ==> dir [/opt/homebrew/lib]
+    arg [-L/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11] ==> dir [/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11]
+    arg [-L/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/../../..] ==> dir [/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/../../..]
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [CMakeFiles/cmTC_56e7d.dir/OpenMPTryFlag.c.o] ==> ignore
+    arg [-v] ==> ignore
+    arg [-lgomp] ==> lib [gomp]
+    arg [-lgcc_s.1.1] ==> lib [gcc_s.1.1]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lSystem] ==> lib [System]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-no_compact_unwind] ==> ignore
+    arg [-rpath] ==> ignore
+    arg [@loader_path] ==> ignore
+    arg [-rpath] ==> ignore
+    arg [/opt/homebrew/lib] ==> ignore
+    arg [-rpath] ==> ignore
+    arg [/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11] ==> ignore
+    arg [-rpath] ==> ignore
+    arg [/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/../../..] ==> ignore
+    arg [-v] ==> ignore
+    arg [-v] ==> ignore
+  Library search paths: [;/opt/homebrew/opt/openssl@1.1/lib;/opt/homebrew/lib;/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11;/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11;/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/lib]
+  Framework search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/]
+  remove lib [System]
+  collapse library dir [/opt/homebrew/opt/openssl@1.1/lib] ==> [/opt/homebrew/opt/openssl@1.1/lib]
+  collapse library dir [/opt/homebrew/lib] ==> [/opt/homebrew/lib]
+  collapse library dir [/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11] ==> [/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11]
+  collapse library dir [/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/../../..] ==> [/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11]
+  collapse library dir [/opt/homebrew/opt/openssl@1.1/lib] ==> [/opt/homebrew/opt/openssl@1.1/lib]
+  collapse library dir [/opt/homebrew/lib] ==> [/opt/homebrew/lib]
+  collapse library dir [/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11] ==> [/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11]
+  collapse library dir [/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11] ==> [/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11]
+  collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/lib] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/lib]
+  collapse framework dir [/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/System/Library/Frameworks]
+  implicit libs: [gomp;gcc_s.1.1;gcc;gcc]
+  implicit objs: []
+  implicit dirs: [/opt/homebrew/opt/openssl@1.1/lib;/opt/homebrew/lib;/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11;/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11;/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/lib]
+  implicit fwks: [/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/System/Library/Frameworks]
+
+
+Detecting CXX OpenMP compiler ABI info compiled with the following output:
+Change Dir: /Users/jianshuzhao/Github/parasail-sys/parasail/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_4221f/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_4221f.dir/build.make CMakeFiles/cmTC_4221f.dir/build
+Building CXX object CMakeFiles/cmTC_4221f.dir/OpenMPTryFlag.cpp.o
+/usr/local/bin/c++   -fopenmp -v -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fPIE -o CMakeFiles/cmTC_4221f.dir/OpenMPTryFlag.cpp.o -c /Users/jianshuzhao/Github/parasail-sys/parasail/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+Using built-in specs.
+COLLECT_GCC=/usr/local/bin/c++
+Target: aarch64-apple-darwin21
+Configured with: ../configure --prefix=/opt/homebrew/Cellar/gcc/11.2.0_3 --libdir=/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11 --disable-nls --enable-checking=release --with-gcc-major-version-only --enable-languages=c,c++,objc,obj-c++,fortran --program-suffix=-11 --with-gmp=/opt/homebrew/opt/gmp --with-mpfr=/opt/homebrew/opt/mpfr --with-mpc=/opt/homebrew/opt/libmpc --with-isl=/opt/homebrew/opt/isl --with-zstd=/opt/homebrew/opt/zstd --with-pkgversion='Homebrew GCC 11.2.0_3' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --build=aarch64-apple-darwin21 --with-system-zlib --disable-multilib --with-native-system-header-dir=/usr/include --with-sysroot=/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.2.0 (Homebrew GCC 11.2.0_3) 
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk' '-fPIE' '-o' 'CMakeFiles/cmTC_4221f.dir/OpenMPTryFlag.cpp.o' '-c' '-mmacosx-version-min=12.3.0' '-asm_macosx_version_min=12.3' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_4221f.dir/'
+ /opt/homebrew/Cellar/gcc/11.2.0_3/libexec/gcc/aarch64-apple-darwin21/11/cc1plus -quiet -v -D__DYNAMIC__ -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk /Users/jianshuzhao/Github/parasail-sys/parasail/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp -fPIC -quiet -dumpdir CMakeFiles/cmTC_4221f.dir/ -dumpbase OpenMPTryFlag.cpp.cpp -dumpbase-ext .cpp -mmacosx-version-min=12.3.0 -mlittle-endian -mabi=lp64 -version -fopenmp -fPIE -o /var/folders/mr/8qybn91j5fgdbrcdmq7ckftw0000gn/T//cctl6XGd.s
+GNU C++17 (Homebrew GCC 11.2.0_3) version 11.2.0 (aarch64-apple-darwin21)
+	compiled by GNU C version 11.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/local/include"
+ignoring nonexistent directory "/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/../../../../../../aarch64-apple-darwin21/include"
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /opt/homebrew/include
+ /opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/../../../../../../include/c++/11
+ /opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/../../../../../../include/c++/11/aarch64-apple-darwin21
+ /opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/../../../../../../include/c++/11/backward
+ /opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/include
+ /opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/include-fixed
+ /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include
+ /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/System/Library/Frameworks
+End of search list.
+GNU C++17 (Homebrew GCC 11.2.0_3) version 11.2.0 (aarch64-apple-darwin21)
+	compiled by GNU C version 11.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: e50123eeac76bc4ebc7d551aece4d80a
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk' '-fPIE' '-o' 'CMakeFiles/cmTC_4221f.dir/OpenMPTryFlag.cpp.o' '-c' '-mmacosx-version-min=12.3.0'  '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_4221f.dir/'
+ as -arch arm64 -v -mmacosx-version-min=12.3 -o CMakeFiles/cmTC_4221f.dir/OpenMPTryFlag.cpp.o /var/folders/mr/8qybn91j5fgdbrcdmq7ckftw0000gn/T//cctl6XGd.s
+Apple clang version 13.1.6 (clang-1316.0.21.2)
+Target: arm64-apple-darwin21.4.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1as -triple arm64-apple-macosx12.3.0 -filetype obj -main-file-name cctl6XGd.s -target-cpu apple-m1 -target-feature +v8.5a -target-feature +fp-armv8 -target-feature +neon -target-feature +crc -target-feature +crypto -target-feature +dotprod -target-feature +fp16fml -target-feature +ras -target-feature +lse -target-feature +rdm -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -fdebug-compilation-dir=/Users/jianshuzhao/Github/parasail-sys/parasail/build/CMakeFiles/CMakeTmp -dwarf-debug-producer "Apple clang version 13.1.6 (clang-1316.0.21.2)" -dwarf-version=4 -mrelocation-model pic --mrelax-relocations -mllvm -disable-aligned-alloc-awareness=1 -o CMakeFiles/cmTC_4221f.dir/OpenMPTryFlag.cpp.o /var/folders/mr/8qybn91j5fgdbrcdmq7ckftw0000gn/T//cctl6XGd.s
+COMPILER_PATH=/opt/homebrew/Cellar/gcc/11.2.0_3/libexec/gcc/aarch64-apple-darwin21/11/:/opt/homebrew/Cellar/gcc/11.2.0_3/libexec/gcc/aarch64-apple-darwin21/11/:/opt/homebrew/Cellar/gcc/11.2.0_3/libexec/gcc/aarch64-apple-darwin21/:/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/:/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/
+LIBRARY_PATH=/opt/homebrew/lib/:/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/:/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/../../../
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk' '-fPIE' '-o' 'CMakeFiles/cmTC_4221f.dir/OpenMPTryFlag.cpp.o' '-c' '-mmacosx-version-min=12.3.0'  '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_4221f.dir/OpenMPTryFlag.cpp.'
+Linking CXX executable cmTC_4221f
+/opt/homebrew/Cellar/cmake/3.22.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4221f.dir/link.txt --verbose=1
+/usr/local/bin/c++  -fopenmp -v -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/opt/homebrew/opt/openssl\@1.1/lib  CMakeFiles/cmTC_4221f.dir/OpenMPTryFlag.cpp.o -o cmTC_4221f  -v -Wl,-v 
+Using built-in specs.
+COLLECT_GCC=/usr/local/bin/c++
+COLLECT_LTO_WRAPPER=/opt/homebrew/Cellar/gcc/11.2.0_3/libexec/gcc/aarch64-apple-darwin21/11/lto-wrapper
+Target: aarch64-apple-darwin21
+Configured with: ../configure --prefix=/opt/homebrew/Cellar/gcc/11.2.0_3 --libdir=/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11 --disable-nls --enable-checking=release --with-gcc-major-version-only --enable-languages=c,c++,objc,obj-c++,fortran --program-suffix=-11 --with-gmp=/opt/homebrew/opt/gmp --with-mpfr=/opt/homebrew/opt/mpfr --with-mpc=/opt/homebrew/opt/libmpc --with-isl=/opt/homebrew/opt/isl --with-zstd=/opt/homebrew/opt/zstd --with-pkgversion='Homebrew GCC 11.2.0_3' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --build=aarch64-apple-darwin21 --with-system-zlib --disable-multilib --with-native-system-header-dir=/usr/include --with-sysroot=/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.2.0 (Homebrew GCC 11.2.0_3) 
+COMPILER_PATH=/opt/homebrew/Cellar/gcc/11.2.0_3/libexec/gcc/aarch64-apple-darwin21/11/:/opt/homebrew/Cellar/gcc/11.2.0_3/libexec/gcc/aarch64-apple-darwin21/11/:/opt/homebrew/Cellar/gcc/11.2.0_3/libexec/gcc/aarch64-apple-darwin21/:/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/:/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/
+LIBRARY_PATH=/opt/homebrew/lib/:/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/:/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/../../../
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk' '-L/opt/homebrew/opt/openssl@1.1/lib' '-o' 'cmTC_4221f' '-v' '-mmacosx-version-min=12.3.0' '-asm_macosx_version_min=12.3' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_4221f.'
+ /opt/homebrew/Cellar/gcc/11.2.0_3/libexec/gcc/aarch64-apple-darwin21/11/collect2 -dynamic -arch arm64 -macosx_version_min 12.3.0 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -weak_reference_mismatches non-weak -o cmTC_4221f -L/opt/homebrew/opt/openssl@1.1/lib -L/opt/homebrew/lib -L/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11 -L/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/../../.. -search_paths_first -headerpad_max_install_names CMakeFiles/cmTC_4221f.dir/OpenMPTryFlag.cpp.o -v -lstdc++ -lgomp -lgcc_s.1.1 -lgcc -lSystem -lgcc -no_compact_unwind -rpath @loader_path -rpath /opt/homebrew/lib -rpath /opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11 -rpath /opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/../../.. -v -v
+collect2 version 11.2.0
+/usr/bin/ld -dynamic -arch arm64 -macosx_version_min 12.3.0 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -weak_reference_mismatches non-weak -o cmTC_4221f -L/opt/homebrew/opt/openssl@1.1/lib -L/opt/homebrew/lib -L/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11 -L/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/../../.. -search_paths_first -headerpad_max_install_names CMakeFiles/cmTC_4221f.dir/OpenMPTryFlag.cpp.o -v -lstdc++ -lgomp -lgcc_s.1.1 -lgcc -lSystem -lgcc -no_compact_unwind -rpath @loader_path -rpath /opt/homebrew/lib -rpath /opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11 -rpath /opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/../../.. -v -v
+@(#)PROGRAM:ld  PROJECT:ld64-762
+BUILD 06:28:58 Feb 18 2022
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+@(#)PROGRAM:ld  PROJECT:ld64-762
+BUILD 06:28:58 Feb 18 2022
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+@(#)PROGRAM:ld  PROJECT:ld64-762
+BUILD 06:28:58 Feb 18 2022
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/opt/homebrew/opt/openssl@1.1/lib
+	/opt/homebrew/lib
+	/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11
+	/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11
+	/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/lib
+Framework search paths:
+	/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/
+
+
+
+Parsed CXX OpenMP implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/jianshuzhao/Github/parasail-sys/parasail/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make -f Makefile cmTC_4221f/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_4221f.dir/build.make CMakeFiles/cmTC_4221f.dir/build]
+  ignore line: [Building CXX object CMakeFiles/cmTC_4221f.dir/OpenMPTryFlag.cpp.o]
+  ignore line: [/usr/local/bin/c++   -fopenmp -v -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fPIE -o CMakeFiles/cmTC_4221f.dir/OpenMPTryFlag.cpp.o -c /Users/jianshuzhao/Github/parasail-sys/parasail/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/local/bin/c++]
+  ignore line: [Target: aarch64-apple-darwin21]
+  ignore line: [Configured with: ../configure --prefix=/opt/homebrew/Cellar/gcc/11.2.0_3 --libdir=/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11 --disable-nls --enable-checking=release --with-gcc-major-version-only --enable-languages=c c++ objc obj-c++ fortran --program-suffix=-11 --with-gmp=/opt/homebrew/opt/gmp --with-mpfr=/opt/homebrew/opt/mpfr --with-mpc=/opt/homebrew/opt/libmpc --with-isl=/opt/homebrew/opt/isl --with-zstd=/opt/homebrew/opt/zstd --with-pkgversion='Homebrew GCC 11.2.0_3' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --build=aarch64-apple-darwin21 --with-system-zlib --disable-multilib --with-native-system-header-dir=/usr/include --with-sysroot=/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.2.0 (Homebrew GCC 11.2.0_3) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk' '-fPIE' '-o' 'CMakeFiles/cmTC_4221f.dir/OpenMPTryFlag.cpp.o' '-c' '-mmacosx-version-min=12.3.0' '-asm_macosx_version_min=12.3' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_4221f.dir/']
+  ignore line: [ /opt/homebrew/Cellar/gcc/11.2.0_3/libexec/gcc/aarch64-apple-darwin21/11/cc1plus -quiet -v -D__DYNAMIC__ -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk /Users/jianshuzhao/Github/parasail-sys/parasail/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp -fPIC -quiet -dumpdir CMakeFiles/cmTC_4221f.dir/ -dumpbase OpenMPTryFlag.cpp.cpp -dumpbase-ext .cpp -mmacosx-version-min=12.3.0 -mlittle-endian -mabi=lp64 -version -fopenmp -fPIE -o /var/folders/mr/8qybn91j5fgdbrcdmq7ckftw0000gn/T//cctl6XGd.s]
+  ignore line: [GNU C++17 (Homebrew GCC 11.2.0_3) version 11.2.0 (aarch64-apple-darwin21)]
+  ignore line: [	compiled by GNU C version 11.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/../../../../../../aarch64-apple-darwin21/include"]
+  ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/Library/Frameworks"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /opt/homebrew/include]
+  ignore line: [ /opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/../../../../../../include/c++/11]
+  ignore line: [ /opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/../../../../../../include/c++/11/aarch64-apple-darwin21]
+  ignore line: [ /opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/../../../../../../include/c++/11/backward]
+  ignore line: [ /opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/include]
+  ignore line: [ /opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/include-fixed]
+  ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include]
+  ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/System/Library/Frameworks]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++17 (Homebrew GCC 11.2.0_3) version 11.2.0 (aarch64-apple-darwin21)]
+  ignore line: [	compiled by GNU C version 11.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: e50123eeac76bc4ebc7d551aece4d80a]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk' '-fPIE' '-o' 'CMakeFiles/cmTC_4221f.dir/OpenMPTryFlag.cpp.o' '-c' '-mmacosx-version-min=12.3.0'  '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_4221f.dir/']
+  ignore line: [ as -arch arm64 -v -mmacosx-version-min=12.3 -o CMakeFiles/cmTC_4221f.dir/OpenMPTryFlag.cpp.o /var/folders/mr/8qybn91j5fgdbrcdmq7ckftw0000gn/T//cctl6XGd.s]
+  ignore line: [Apple clang version 13.1.6 (clang-1316.0.21.2)]
+  ignore line: [Target: arm64-apple-darwin21.4.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+  ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1as -triple arm64-apple-macosx12.3.0 -filetype obj -main-file-name cctl6XGd.s -target-cpu apple-m1 -target-feature +v8.5a -target-feature +fp-armv8 -target-feature +neon -target-feature +crc -target-feature +crypto -target-feature +dotprod -target-feature +fp16fml -target-feature +ras -target-feature +lse -target-feature +rdm -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -fdebug-compilation-dir=/Users/jianshuzhao/Github/parasail-sys/parasail/build/CMakeFiles/CMakeTmp -dwarf-debug-producer "Apple clang version 13.1.6 (clang-1316.0.21.2)" -dwarf-version=4 -mrelocation-model pic --mrelax-relocations -mllvm -disable-aligned-alloc-awareness=1 -o CMakeFiles/cmTC_4221f.dir/OpenMPTryFlag.cpp.o /var/folders/mr/8qybn91j5fgdbrcdmq7ckftw0000gn/T//cctl6XGd.s]
+  ignore line: [COMPILER_PATH=/opt/homebrew/Cellar/gcc/11.2.0_3/libexec/gcc/aarch64-apple-darwin21/11/:/opt/homebrew/Cellar/gcc/11.2.0_3/libexec/gcc/aarch64-apple-darwin21/11/:/opt/homebrew/Cellar/gcc/11.2.0_3/libexec/gcc/aarch64-apple-darwin21/:/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/:/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/]
+  ignore line: [LIBRARY_PATH=/opt/homebrew/lib/:/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/:/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk' '-fPIE' '-o' 'CMakeFiles/cmTC_4221f.dir/OpenMPTryFlag.cpp.o' '-c' '-mmacosx-version-min=12.3.0'  '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_4221f.dir/OpenMPTryFlag.cpp.']
+  ignore line: [Linking CXX executable cmTC_4221f]
+  ignore line: [/opt/homebrew/Cellar/cmake/3.22.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4221f.dir/link.txt --verbose=1]
+  ignore line: [/usr/local/bin/c++  -fopenmp -v -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -Wl -search_paths_first -Wl -headerpad_max_install_names -L/opt/homebrew/opt/openssl\@1.1/lib  CMakeFiles/cmTC_4221f.dir/OpenMPTryFlag.cpp.o -o cmTC_4221f  -v -Wl -v ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/local/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/opt/homebrew/Cellar/gcc/11.2.0_3/libexec/gcc/aarch64-apple-darwin21/11/lto-wrapper]
+  ignore line: [Target: aarch64-apple-darwin21]
+  ignore line: [Configured with: ../configure --prefix=/opt/homebrew/Cellar/gcc/11.2.0_3 --libdir=/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11 --disable-nls --enable-checking=release --with-gcc-major-version-only --enable-languages=c c++ objc obj-c++ fortran --program-suffix=-11 --with-gmp=/opt/homebrew/opt/gmp --with-mpfr=/opt/homebrew/opt/mpfr --with-mpc=/opt/homebrew/opt/libmpc --with-isl=/opt/homebrew/opt/isl --with-zstd=/opt/homebrew/opt/zstd --with-pkgversion='Homebrew GCC 11.2.0_3' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --build=aarch64-apple-darwin21 --with-system-zlib --disable-multilib --with-native-system-header-dir=/usr/include --with-sysroot=/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.2.0 (Homebrew GCC 11.2.0_3) ]
+  ignore line: [COMPILER_PATH=/opt/homebrew/Cellar/gcc/11.2.0_3/libexec/gcc/aarch64-apple-darwin21/11/:/opt/homebrew/Cellar/gcc/11.2.0_3/libexec/gcc/aarch64-apple-darwin21/11/:/opt/homebrew/Cellar/gcc/11.2.0_3/libexec/gcc/aarch64-apple-darwin21/:/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/:/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/]
+  ignore line: [LIBRARY_PATH=/opt/homebrew/lib/:/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/:/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk' '-L/opt/homebrew/opt/openssl@1.1/lib' '-o' 'cmTC_4221f' '-v' '-mmacosx-version-min=12.3.0' '-asm_macosx_version_min=12.3' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_4221f.']
+  link line: [ /opt/homebrew/Cellar/gcc/11.2.0_3/libexec/gcc/aarch64-apple-darwin21/11/collect2 -dynamic -arch arm64 -macosx_version_min 12.3.0 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -weak_reference_mismatches non-weak -o cmTC_4221f -L/opt/homebrew/opt/openssl@1.1/lib -L/opt/homebrew/lib -L/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11 -L/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/../../.. -search_paths_first -headerpad_max_install_names CMakeFiles/cmTC_4221f.dir/OpenMPTryFlag.cpp.o -v -lstdc++ -lgomp -lgcc_s.1.1 -lgcc -lSystem -lgcc -no_compact_unwind -rpath @loader_path -rpath /opt/homebrew/lib -rpath /opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11 -rpath /opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/../../.. -v -v]
+    arg [/opt/homebrew/Cellar/gcc/11.2.0_3/libexec/gcc/aarch64-apple-darwin21/11/collect2] ==> ignore
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [arm64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [12.3.0] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk] ==> ignore
+    arg [-weak_reference_mismatches] ==> ignore
+    arg [non-weak] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_4221f] ==> ignore
+    arg [-L/opt/homebrew/opt/openssl@1.1/lib] ==> dir [/opt/homebrew/opt/openssl@1.1/lib]
+    arg [-L/opt/homebrew/lib] ==> dir [/opt/homebrew/lib]
+    arg [-L/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11] ==> dir [/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11]
+    arg [-L/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/../../..] ==> dir [/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/../../..]
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [CMakeFiles/cmTC_4221f.dir/OpenMPTryFlag.cpp.o] ==> ignore
+    arg [-v] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lgomp] ==> lib [gomp]
+    arg [-lgcc_s.1.1] ==> lib [gcc_s.1.1]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lSystem] ==> lib [System]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-no_compact_unwind] ==> ignore
+    arg [-rpath] ==> ignore
+    arg [@loader_path] ==> ignore
+    arg [-rpath] ==> ignore
+    arg [/opt/homebrew/lib] ==> ignore
+    arg [-rpath] ==> ignore
+    arg [/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11] ==> ignore
+    arg [-rpath] ==> ignore
+    arg [/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/../../..] ==> ignore
+    arg [-v] ==> ignore
+    arg [-v] ==> ignore
+  Library search paths: [;/opt/homebrew/opt/openssl@1.1/lib;/opt/homebrew/lib;/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11;/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11;/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/lib]
+  Framework search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/]
+  remove lib [System]
+  collapse library dir [/opt/homebrew/opt/openssl@1.1/lib] ==> [/opt/homebrew/opt/openssl@1.1/lib]
+  collapse library dir [/opt/homebrew/lib] ==> [/opt/homebrew/lib]
+  collapse library dir [/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11] ==> [/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11]
+  collapse library dir [/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/../../..] ==> [/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11]
+  collapse library dir [/opt/homebrew/opt/openssl@1.1/lib] ==> [/opt/homebrew/opt/openssl@1.1/lib]
+  collapse library dir [/opt/homebrew/lib] ==> [/opt/homebrew/lib]
+  collapse library dir [/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11] ==> [/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11]
+  collapse library dir [/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11] ==> [/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11]
+  collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/lib] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/lib]
+  collapse framework dir [/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/System/Library/Frameworks]
+  implicit libs: [stdc++;gomp;gcc_s.1.1;gcc;gcc]
+  implicit objs: []
+  implicit dirs: [/opt/homebrew/opt/openssl@1.1/lib;/opt/homebrew/lib;/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11;/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11;/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/lib]
+  implicit fwks: [/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/System/Library/Frameworks]
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /Users/jianshuzhao/Github/parasail-sys/parasail/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_d64d1/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_d64d1.dir/build.make CMakeFiles/cmTC_d64d1.dir/build
+Building C object CMakeFiles/cmTC_d64d1.dir/CheckIncludeFile.c.o
+/usr/local/bin/cc   -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fPIE -o CMakeFiles/cmTC_d64d1.dir/CheckIncludeFile.c.o -c /Users/jianshuzhao/Github/parasail-sys/parasail/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_d64d1
+/opt/homebrew/Cellar/cmake/3.22.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d64d1.dir/link.txt --verbose=1
+/usr/local/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/opt/homebrew/opt/openssl\@1.1/lib  CMakeFiles/cmTC_d64d1.dir/CheckIncludeFile.c.o -o cmTC_d64d1 
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /Users/jianshuzhao/Github/parasail-sys/parasail/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_92482/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_92482.dir/build.make CMakeFiles/cmTC_92482.dir/build
+Building C object CMakeFiles/cmTC_92482.dir/CheckIncludeFile.c.o
+/usr/local/bin/cc   -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fPIE -o CMakeFiles/cmTC_92482.dir/CheckIncludeFile.c.o -c /Users/jianshuzhao/Github/parasail-sys/parasail/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_92482
+/opt/homebrew/Cellar/cmake/3.22.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_92482.dir/link.txt --verbose=1
+/usr/local/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/opt/homebrew/opt/openssl\@1.1/lib  CMakeFiles/cmTC_92482.dir/CheckIncludeFile.c.o -o cmTC_92482 
+
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /Users/jianshuzhao/Github/parasail-sys/parasail/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_661f5/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_661f5.dir/build.make CMakeFiles/cmTC_661f5.dir/build
+Building C object CMakeFiles/cmTC_661f5.dir/CheckIncludeFile.c.o
+/usr/local/bin/cc   -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fPIE -o CMakeFiles/cmTC_661f5.dir/CheckIncludeFile.c.o -c /Users/jianshuzhao/Github/parasail-sys/parasail/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_661f5
+/opt/homebrew/Cellar/cmake/3.22.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_661f5.dir/link.txt --verbose=1
+/usr/local/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/opt/homebrew/opt/openssl\@1.1/lib  CMakeFiles/cmTC_661f5.dir/CheckIncludeFile.c.o -o cmTC_661f5 
+
+
+
+Determining size of int passed with the following output:
+Change Dir: /Users/jianshuzhao/Github/parasail-sys/parasail/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_58b2e/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_58b2e.dir/build.make CMakeFiles/cmTC_58b2e.dir/build
+Building C object CMakeFiles/cmTC_58b2e.dir/SIZEOF_INT.c.o
+/usr/local/bin/cc   -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fPIE -o CMakeFiles/cmTC_58b2e.dir/SIZEOF_INT.c.o -c /Users/jianshuzhao/Github/parasail-sys/parasail/build/CMakeFiles/CheckTypeSize/SIZEOF_INT.c
+Linking C executable cmTC_58b2e
+/opt/homebrew/Cellar/cmake/3.22.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_58b2e.dir/link.txt --verbose=1
+/usr/local/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/opt/homebrew/opt/openssl\@1.1/lib  CMakeFiles/cmTC_58b2e.dir/SIZEOF_INT.c.o -o cmTC_58b2e 
+
+
+
+Determining size of int8_t passed with the following output:
+Change Dir: /Users/jianshuzhao/Github/parasail-sys/parasail/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_94f48/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_94f48.dir/build.make CMakeFiles/cmTC_94f48.dir/build
+Building C object CMakeFiles/cmTC_94f48.dir/SIZEOF_INT8_T.c.o
+/usr/local/bin/cc   -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fPIE -o CMakeFiles/cmTC_94f48.dir/SIZEOF_INT8_T.c.o -c /Users/jianshuzhao/Github/parasail-sys/parasail/build/CMakeFiles/CheckTypeSize/SIZEOF_INT8_T.c
+Linking C executable cmTC_94f48
+/opt/homebrew/Cellar/cmake/3.22.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_94f48.dir/link.txt --verbose=1
+/usr/local/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/opt/homebrew/opt/openssl\@1.1/lib  CMakeFiles/cmTC_94f48.dir/SIZEOF_INT8_T.c.o -o cmTC_94f48 
+
+
+
+Determining size of int16_t passed with the following output:
+Change Dir: /Users/jianshuzhao/Github/parasail-sys/parasail/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_43757/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_43757.dir/build.make CMakeFiles/cmTC_43757.dir/build
+Building C object CMakeFiles/cmTC_43757.dir/SIZEOF_INT16_T.c.o
+/usr/local/bin/cc   -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fPIE -o CMakeFiles/cmTC_43757.dir/SIZEOF_INT16_T.c.o -c /Users/jianshuzhao/Github/parasail-sys/parasail/build/CMakeFiles/CheckTypeSize/SIZEOF_INT16_T.c
+Linking C executable cmTC_43757
+/opt/homebrew/Cellar/cmake/3.22.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_43757.dir/link.txt --verbose=1
+/usr/local/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/opt/homebrew/opt/openssl\@1.1/lib  CMakeFiles/cmTC_43757.dir/SIZEOF_INT16_T.c.o -o cmTC_43757 
+
+
+
+Determining size of int32_t passed with the following output:
+Change Dir: /Users/jianshuzhao/Github/parasail-sys/parasail/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_1fcb2/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_1fcb2.dir/build.make CMakeFiles/cmTC_1fcb2.dir/build
+Building C object CMakeFiles/cmTC_1fcb2.dir/SIZEOF_INT32_T.c.o
+/usr/local/bin/cc   -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fPIE -o CMakeFiles/cmTC_1fcb2.dir/SIZEOF_INT32_T.c.o -c /Users/jianshuzhao/Github/parasail-sys/parasail/build/CMakeFiles/CheckTypeSize/SIZEOF_INT32_T.c
+Linking C executable cmTC_1fcb2
+/opt/homebrew/Cellar/cmake/3.22.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1fcb2.dir/link.txt --verbose=1
+/usr/local/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/opt/homebrew/opt/openssl\@1.1/lib  CMakeFiles/cmTC_1fcb2.dir/SIZEOF_INT32_T.c.o -o cmTC_1fcb2 
+
+
+
+Determining size of int64_t passed with the following output:
+Change Dir: /Users/jianshuzhao/Github/parasail-sys/parasail/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_8e359/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_8e359.dir/build.make CMakeFiles/cmTC_8e359.dir/build
+Building C object CMakeFiles/cmTC_8e359.dir/SIZEOF_INT64_T.c.o
+/usr/local/bin/cc   -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fPIE -o CMakeFiles/cmTC_8e359.dir/SIZEOF_INT64_T.c.o -c /Users/jianshuzhao/Github/parasail-sys/parasail/build/CMakeFiles/CheckTypeSize/SIZEOF_INT64_T.c
+Linking C executable cmTC_8e359
+/opt/homebrew/Cellar/cmake/3.22.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8e359.dir/link.txt --verbose=1
+/usr/local/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/opt/homebrew/opt/openssl\@1.1/lib  CMakeFiles/cmTC_8e359.dir/SIZEOF_INT64_T.c.o -o cmTC_8e359 
+
+
+
+Determining size of uint8_t passed with the following output:
+Change Dir: /Users/jianshuzhao/Github/parasail-sys/parasail/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_7b878/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_7b878.dir/build.make CMakeFiles/cmTC_7b878.dir/build
+Building C object CMakeFiles/cmTC_7b878.dir/SIZEOF_UINT8_T.c.o
+/usr/local/bin/cc   -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fPIE -o CMakeFiles/cmTC_7b878.dir/SIZEOF_UINT8_T.c.o -c /Users/jianshuzhao/Github/parasail-sys/parasail/build/CMakeFiles/CheckTypeSize/SIZEOF_UINT8_T.c
+Linking C executable cmTC_7b878
+/opt/homebrew/Cellar/cmake/3.22.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7b878.dir/link.txt --verbose=1
+/usr/local/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/opt/homebrew/opt/openssl\@1.1/lib  CMakeFiles/cmTC_7b878.dir/SIZEOF_UINT8_T.c.o -o cmTC_7b878 
+
+
+
+Determining size of uint16_t passed with the following output:
+Change Dir: /Users/jianshuzhao/Github/parasail-sys/parasail/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_bd9ed/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_bd9ed.dir/build.make CMakeFiles/cmTC_bd9ed.dir/build
+Building C object CMakeFiles/cmTC_bd9ed.dir/SIZEOF_UINT16_T.c.o
+/usr/local/bin/cc   -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fPIE -o CMakeFiles/cmTC_bd9ed.dir/SIZEOF_UINT16_T.c.o -c /Users/jianshuzhao/Github/parasail-sys/parasail/build/CMakeFiles/CheckTypeSize/SIZEOF_UINT16_T.c
+Linking C executable cmTC_bd9ed
+/opt/homebrew/Cellar/cmake/3.22.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bd9ed.dir/link.txt --verbose=1
+/usr/local/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/opt/homebrew/opt/openssl\@1.1/lib  CMakeFiles/cmTC_bd9ed.dir/SIZEOF_UINT16_T.c.o -o cmTC_bd9ed 
+
+
+
+Determining size of uint32_t passed with the following output:
+Change Dir: /Users/jianshuzhao/Github/parasail-sys/parasail/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_df916/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_df916.dir/build.make CMakeFiles/cmTC_df916.dir/build
+Building C object CMakeFiles/cmTC_df916.dir/SIZEOF_UINT32_T.c.o
+/usr/local/bin/cc   -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fPIE -o CMakeFiles/cmTC_df916.dir/SIZEOF_UINT32_T.c.o -c /Users/jianshuzhao/Github/parasail-sys/parasail/build/CMakeFiles/CheckTypeSize/SIZEOF_UINT32_T.c
+Linking C executable cmTC_df916
+/opt/homebrew/Cellar/cmake/3.22.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_df916.dir/link.txt --verbose=1
+/usr/local/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/opt/homebrew/opt/openssl\@1.1/lib  CMakeFiles/cmTC_df916.dir/SIZEOF_UINT32_T.c.o -o cmTC_df916 
+
+
+
+Determining size of uint64_t passed with the following output:
+Change Dir: /Users/jianshuzhao/Github/parasail-sys/parasail/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_fc12c/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_fc12c.dir/build.make CMakeFiles/cmTC_fc12c.dir/build
+Building C object CMakeFiles/cmTC_fc12c.dir/SIZEOF_UINT64_T.c.o
+/usr/local/bin/cc   -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fPIE -o CMakeFiles/cmTC_fc12c.dir/SIZEOF_UINT64_T.c.o -c /Users/jianshuzhao/Github/parasail-sys/parasail/build/CMakeFiles/CheckTypeSize/SIZEOF_UINT64_T.c
+Linking C executable cmTC_fc12c
+/opt/homebrew/Cellar/cmake/3.22.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fc12c.dir/link.txt --verbose=1
+/usr/local/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/opt/homebrew/opt/openssl\@1.1/lib  CMakeFiles/cmTC_fc12c.dir/SIZEOF_UINT64_T.c.o -o cmTC_fc12c 
+
+
+
+Performing C SOURCE FILE Test HAVE_RESTRICT succeeded with the following output:
+Change Dir: /Users/jianshuzhao/Github/parasail-sys/parasail/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_e21a7/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_e21a7.dir/build.make CMakeFiles/cmTC_e21a7.dir/build
+Building C object CMakeFiles/cmTC_e21a7.dir/src.c.o
+/usr/local/bin/cc -DHAVE_RESTRICT  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fPIE -o CMakeFiles/cmTC_e21a7.dir/src.c.o -c /Users/jianshuzhao/Github/parasail-sys/parasail/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_e21a7
+/opt/homebrew/Cellar/cmake/3.22.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e21a7.dir/link.txt --verbose=1
+/usr/local/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/opt/homebrew/opt/openssl\@1.1/lib  CMakeFiles/cmTC_e21a7.dir/src.c.o -o cmTC_e21a7 
+
+
+Source file was:
+
+#define restrict __restrict
+typedef int * int_ptr;
+int foo (int_ptr restrict ip) {
+    return ip[0];
+}
+int main() {
+    int s[1];
+    int * restrict t = s;
+    t[0] = 0;
+    return foo(t);
+}
+
+Performing C SOURCE FILE Test HAVE_INLINE_NATIVE succeeded with the following output:
+Change Dir: /Users/jianshuzhao/Github/parasail-sys/parasail/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_a7c73/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_a7c73.dir/build.make CMakeFiles/cmTC_a7c73.dir/build
+Building C object CMakeFiles/cmTC_a7c73.dir/src.c.o
+/usr/local/bin/cc -DHAVE_INLINE_NATIVE  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fPIE -o CMakeFiles/cmTC_a7c73.dir/src.c.o -c /Users/jianshuzhao/Github/parasail-sys/parasail/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_a7c73
+/opt/homebrew/Cellar/cmake/3.22.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a7c73.dir/link.txt --verbose=1
+/usr/local/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/opt/homebrew/opt/openssl\@1.1/lib  CMakeFiles/cmTC_a7c73.dir/src.c.o -o cmTC_a7c73 
+
+
+Source file was:
+
+typedef int foo_t;
+static inline foo_t static_foo(){return 0;}
+foo_t foo(){return 0;}
+int main(int argc, char *argv[]){return 0;}
+
+Determining if the include file sys/mman.h exists passed with the following output:
+Change Dir: /Users/jianshuzhao/Github/parasail-sys/parasail/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_8bfbe/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_8bfbe.dir/build.make CMakeFiles/cmTC_8bfbe.dir/build
+Building C object CMakeFiles/cmTC_8bfbe.dir/CheckIncludeFile.c.o
+/usr/local/bin/cc  -I/Users/jianshuzhao/Github/parasail-sys/parasail/build/CMakeFiles/CMakeTmp/stdint.h -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fPIE -o CMakeFiles/cmTC_8bfbe.dir/CheckIncludeFile.c.o -c /Users/jianshuzhao/Github/parasail-sys/parasail/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_8bfbe
+/opt/homebrew/Cellar/cmake/3.22.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8bfbe.dir/link.txt --verbose=1
+/usr/local/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/opt/homebrew/opt/openssl\@1.1/lib  CMakeFiles/cmTC_8bfbe.dir/CheckIncludeFile.c.o -o cmTC_8bfbe 
+
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /Users/jianshuzhao/Github/parasail-sys/parasail/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_dbc78/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_dbc78.dir/build.make CMakeFiles/cmTC_dbc78.dir/build
+Building C object CMakeFiles/cmTC_dbc78.dir/CheckIncludeFile.c.o
+/usr/local/bin/cc  -I/Users/jianshuzhao/Github/parasail-sys/parasail/build/CMakeFiles/CMakeTmp/stdint.h -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fPIE -o CMakeFiles/cmTC_dbc78.dir/CheckIncludeFile.c.o -c /Users/jianshuzhao/Github/parasail-sys/parasail/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_dbc78
+/opt/homebrew/Cellar/cmake/3.22.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dbc78.dir/link.txt --verbose=1
+/usr/local/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/opt/homebrew/opt/openssl\@1.1/lib  CMakeFiles/cmTC_dbc78.dir/CheckIncludeFile.c.o -o cmTC_dbc78 
+
+
+
+Determining if the posix_memalign exist passed with the following output:
+Change Dir: /Users/jianshuzhao/Github/parasail-sys/parasail/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_13317/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_13317.dir/build.make CMakeFiles/cmTC_13317.dir/build
+Building C object CMakeFiles/cmTC_13317.dir/CheckSymbolExists.c.o
+/usr/local/bin/cc  -I/Users/jianshuzhao/Github/parasail-sys/parasail/build/CMakeFiles/CMakeTmp/stdint.h -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fPIE -o CMakeFiles/cmTC_13317.dir/CheckSymbolExists.c.o -c /Users/jianshuzhao/Github/parasail-sys/parasail/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_13317
+/opt/homebrew/Cellar/cmake/3.22.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_13317.dir/link.txt --verbose=1
+/usr/local/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/opt/homebrew/opt/openssl\@1.1/lib  CMakeFiles/cmTC_13317.dir/CheckSymbolExists.c.o -o cmTC_13317 
+
+
+File /Users/jianshuzhao/Github/parasail-sys/parasail/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef posix_memalign
+  return ((int*)(&posix_memalign))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the aligned_alloc exist passed with the following output:
+Change Dir: /Users/jianshuzhao/Github/parasail-sys/parasail/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_c7b2a/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_c7b2a.dir/build.make CMakeFiles/cmTC_c7b2a.dir/build
+Building C object CMakeFiles/cmTC_c7b2a.dir/CheckSymbolExists.c.o
+/usr/local/bin/cc  -I/Users/jianshuzhao/Github/parasail-sys/parasail/build/CMakeFiles/CMakeTmp/stdint.h -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fPIE -o CMakeFiles/cmTC_c7b2a.dir/CheckSymbolExists.c.o -c /Users/jianshuzhao/Github/parasail-sys/parasail/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_c7b2a
+/opt/homebrew/Cellar/cmake/3.22.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c7b2a.dir/link.txt --verbose=1
+/usr/local/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/opt/homebrew/opt/openssl\@1.1/lib  CMakeFiles/cmTC_c7b2a.dir/CheckSymbolExists.c.o -o cmTC_c7b2a 
+
+
+File /Users/jianshuzhao/Github/parasail-sys/parasail/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef aligned_alloc
+  return ((int*)(&aligned_alloc))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the function getopt exists passed with the following output:
+Change Dir: /Users/jianshuzhao/Github/parasail-sys/parasail/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_95e5e/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_95e5e.dir/build.make CMakeFiles/cmTC_95e5e.dir/build
+Building C object CMakeFiles/cmTC_95e5e.dir/CheckFunctionExists.c.o
+/usr/local/bin/cc  -I/Users/jianshuzhao/Github/parasail-sys/parasail/build/CMakeFiles/CMakeTmp/stdint.h -DCHECK_FUNCTION_EXISTS=getopt -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fPIE -o CMakeFiles/cmTC_95e5e.dir/CheckFunctionExists.c.o -c /opt/homebrew/Cellar/cmake/3.22.3/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_95e5e
+/opt/homebrew/Cellar/cmake/3.22.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_95e5e.dir/link.txt --verbose=1
+/usr/local/bin/cc  -DCHECK_FUNCTION_EXISTS=getopt -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/opt/homebrew/opt/openssl\@1.1/lib  CMakeFiles/cmTC_95e5e.dir/CheckFunctionExists.c.o -o cmTC_95e5e 
+
+
+
+Determining if the function poll exists passed with the following output:
+Change Dir: /Users/jianshuzhao/Github/parasail-sys/parasail/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_b1a79/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_b1a79.dir/build.make CMakeFiles/cmTC_b1a79.dir/build
+Building C object CMakeFiles/cmTC_b1a79.dir/CheckFunctionExists.c.o
+/usr/local/bin/cc  -I/Users/jianshuzhao/Github/parasail-sys/parasail/build/CMakeFiles/CMakeTmp/stdint.h -DCHECK_FUNCTION_EXISTS=poll -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fPIE -o CMakeFiles/cmTC_b1a79.dir/CheckFunctionExists.c.o -c /opt/homebrew/Cellar/cmake/3.22.3/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b1a79
+/opt/homebrew/Cellar/cmake/3.22.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b1a79.dir/link.txt --verbose=1
+/usr/local/bin/cc  -DCHECK_FUNCTION_EXISTS=poll -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/opt/homebrew/opt/openssl\@1.1/lib  CMakeFiles/cmTC_b1a79.dir/CheckFunctionExists.c.o -o cmTC_b1a79 
+
+
+
+Determining if the function clock_get_time exists passed with the following output:
+Change Dir: /Users/jianshuzhao/Github/parasail-sys/parasail/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_a815b/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_a815b.dir/build.make CMakeFiles/cmTC_a815b.dir/build
+Building C object CMakeFiles/cmTC_a815b.dir/CheckFunctionExists.c.o
+/usr/local/bin/cc  -I/Users/jianshuzhao/Github/parasail-sys/parasail/build/CMakeFiles/CMakeTmp/stdint.h -DCHECK_FUNCTION_EXISTS=clock_get_time -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fPIE -o CMakeFiles/cmTC_a815b.dir/CheckFunctionExists.c.o -c /opt/homebrew/Cellar/cmake/3.22.3/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a815b
+/opt/homebrew/Cellar/cmake/3.22.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a815b.dir/link.txt --verbose=1
+/usr/local/bin/cc  -DCHECK_FUNCTION_EXISTS=clock_get_time -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/opt/homebrew/opt/openssl\@1.1/lib  CMakeFiles/cmTC_a815b.dir/CheckFunctionExists.c.o -o cmTC_a815b 
+
+
+
+Determining if the function clock_gettime exists passed with the following output:
+Change Dir: /Users/jianshuzhao/Github/parasail-sys/parasail/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_bc7cf/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_bc7cf.dir/build.make CMakeFiles/cmTC_bc7cf.dir/build
+Building C object CMakeFiles/cmTC_bc7cf.dir/CheckFunctionExists.c.o
+/usr/local/bin/cc  -I/Users/jianshuzhao/Github/parasail-sys/parasail/build/CMakeFiles/CMakeTmp/stdint.h -DCHECK_FUNCTION_EXISTS=clock_gettime -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fPIE -o CMakeFiles/cmTC_bc7cf.dir/CheckFunctionExists.c.o -c /opt/homebrew/Cellar/cmake/3.22.3/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_bc7cf
+/opt/homebrew/Cellar/cmake/3.22.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bc7cf.dir/link.txt --verbose=1
+/usr/local/bin/cc  -DCHECK_FUNCTION_EXISTS=clock_gettime -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/opt/homebrew/opt/openssl\@1.1/lib  CMakeFiles/cmTC_bc7cf.dir/CheckFunctionExists.c.o -o cmTC_bc7cf 
+
+
+
+Determining if the function clock_gettime exists in the pthread passed with the following output:
+Change Dir: /Users/jianshuzhao/Github/parasail-sys/parasail/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_44781/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_44781.dir/build.make CMakeFiles/cmTC_44781.dir/build
+Building C object CMakeFiles/cmTC_44781.dir/CheckFunctionExists.c.o
+/usr/local/bin/cc   -DCHECK_FUNCTION_EXISTS=clock_gettime -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fPIE -o CMakeFiles/cmTC_44781.dir/CheckFunctionExists.c.o -c /opt/homebrew/Cellar/cmake/3.22.3/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_44781
+/opt/homebrew/Cellar/cmake/3.22.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_44781.dir/link.txt --verbose=1
+/usr/local/bin/cc  -DCHECK_FUNCTION_EXISTS=clock_gettime -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/opt/homebrew/opt/openssl\@1.1/lib  CMakeFiles/cmTC_44781.dir/CheckFunctionExists.c.o -o cmTC_44781  -lpthread 
+
+
+
+Determining if the function sqrt exists passed with the following output:
+Change Dir: /Users/jianshuzhao/Github/parasail-sys/parasail/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_2607f/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_2607f.dir/build.make CMakeFiles/cmTC_2607f.dir/build
+Building C object CMakeFiles/cmTC_2607f.dir/CheckFunctionExists.c.o
+/usr/local/bin/cc  -I/Users/jianshuzhao/Github/parasail-sys/parasail/build/CMakeFiles/CMakeTmp/stdint.h -DCHECK_FUNCTION_EXISTS=sqrt -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fPIE -o CMakeFiles/cmTC_2607f.dir/CheckFunctionExists.c.o -c /opt/homebrew/Cellar/cmake/3.22.3/share/cmake/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function 'sqrt'; expected 'double(double)' [-Wbuiltin-declaration-mismatch]
+/opt/homebrew/Cellar/cmake/3.22.3/share/cmake/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro 'CHECK_FUNCTION_EXISTS'
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/opt/homebrew/Cellar/cmake/3.22.3/share/cmake/Modules/CheckFunctionExists.c:1:1: note: 'sqrt' is declared in header '<math.h>'
+  +++ |+#include <math.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+Linking C executable cmTC_2607f
+/opt/homebrew/Cellar/cmake/3.22.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2607f.dir/link.txt --verbose=1
+/usr/local/bin/cc  -DCHECK_FUNCTION_EXISTS=sqrt -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/opt/homebrew/opt/openssl\@1.1/lib  CMakeFiles/cmTC_2607f.dir/CheckFunctionExists.c.o -o cmTC_2607f 
+
+
+
+Determining if the function sqrt exists in the m passed with the following output:
+Change Dir: /Users/jianshuzhao/Github/parasail-sys/parasail/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_a4ec0/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_a4ec0.dir/build.make CMakeFiles/cmTC_a4ec0.dir/build
+Building C object CMakeFiles/cmTC_a4ec0.dir/CheckFunctionExists.c.o
+/usr/local/bin/cc   -DCHECK_FUNCTION_EXISTS=sqrt -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fPIE -o CMakeFiles/cmTC_a4ec0.dir/CheckFunctionExists.c.o -c /opt/homebrew/Cellar/cmake/3.22.3/share/cmake/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function 'sqrt'; expected 'double(double)' [-Wbuiltin-declaration-mismatch]
+/opt/homebrew/Cellar/cmake/3.22.3/share/cmake/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro 'CHECK_FUNCTION_EXISTS'
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/opt/homebrew/Cellar/cmake/3.22.3/share/cmake/Modules/CheckFunctionExists.c:1:1: note: 'sqrt' is declared in header '<math.h>'
+  +++ |+#include <math.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+Linking C executable cmTC_a4ec0
+/opt/homebrew/Cellar/cmake/3.22.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a4ec0.dir/link.txt --verbose=1
+/usr/local/bin/cc  -DCHECK_FUNCTION_EXISTS=sqrt -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/opt/homebrew/opt/openssl\@1.1/lib  CMakeFiles/cmTC_a4ec0.dir/CheckFunctionExists.c.o -o cmTC_a4ec0  -lm 
+
+
+
+Performing C SOURCE FILE Test INT64_LITERAL_SUFFIX_LL succeeded with the following output:
+Change Dir: /Users/jianshuzhao/Github/parasail-sys/parasail/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_991f7/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_991f7.dir/build.make CMakeFiles/cmTC_991f7.dir/build
+Building C object CMakeFiles/cmTC_991f7.dir/src.c.o
+/usr/local/bin/cc -DINT64_LITERAL_SUFFIX_LL -I/Users/jianshuzhao/Github/parasail-sys/parasail/build/CMakeFiles/CMakeTmp/stdint.h -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fPIE -o CMakeFiles/cmTC_991f7.dir/src.c.o -c /Users/jianshuzhao/Github/parasail-sys/parasail/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_991f7
+/opt/homebrew/Cellar/cmake/3.22.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_991f7.dir/link.txt --verbose=1
+/usr/local/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/opt/homebrew/opt/openssl\@1.1/lib  CMakeFiles/cmTC_991f7.dir/src.c.o -o cmTC_991f7 
+
+
+Source file was:
+
+int main(void) {
+    long long val = 116444736000000000LL;
+    return 0;
+}
+
+Performing C SOURCE FILE Test HAVE_CLOCK_GETTIME_MONOTONIC succeeded with the following output:
+Change Dir: /Users/jianshuzhao/Github/parasail-sys/parasail/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_7640f/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_7640f.dir/build.make CMakeFiles/cmTC_7640f.dir/build
+Building C object CMakeFiles/cmTC_7640f.dir/src.c.o
+/usr/local/bin/cc -DHAVE_CLOCK_GETTIME_MONOTONIC -I/Users/jianshuzhao/Github/parasail-sys/parasail/build/CMakeFiles/CMakeTmp/stdint.h -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fPIE -o CMakeFiles/cmTC_7640f.dir/src.c.o -c /Users/jianshuzhao/Github/parasail-sys/parasail/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_7640f
+/opt/homebrew/Cellar/cmake/3.22.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7640f.dir/link.txt --verbose=1
+/usr/local/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/opt/homebrew/opt/openssl\@1.1/lib  CMakeFiles/cmTC_7640f.dir/src.c.o -o cmTC_7640f 
+
+
+Source file was:
+
+#define _POSIX_C_SOURCE 199309L
+#include <time.h>
+double parasail_time(void) {
+    struct timespec ts;
+    /* Works on FreeBSD */
+    long retval = clock_gettime(CLOCK_MONOTONIC, &ts);
+    return (double)(ts.tv_sec) + (double)(ts.tv_nsec)/1000000000.0;
+}
+int main(void) {
+    double t = parasail_time();
+    return 0;
+}
+
+Performing C SOURCE FILE Test HAVE_CLOCK_GETTIME_REALTIME succeeded with the following output:
+Change Dir: /Users/jianshuzhao/Github/parasail-sys/parasail/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_a3cfa/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_a3cfa.dir/build.make CMakeFiles/cmTC_a3cfa.dir/build
+Building C object CMakeFiles/cmTC_a3cfa.dir/src.c.o
+/usr/local/bin/cc -DHAVE_CLOCK_GETTIME_REALTIME -I/Users/jianshuzhao/Github/parasail-sys/parasail/build/CMakeFiles/CMakeTmp/stdint.h -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fPIE -o CMakeFiles/cmTC_a3cfa.dir/src.c.o -c /Users/jianshuzhao/Github/parasail-sys/parasail/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_a3cfa
+/opt/homebrew/Cellar/cmake/3.22.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a3cfa.dir/link.txt --verbose=1
+/usr/local/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/opt/homebrew/opt/openssl\@1.1/lib  CMakeFiles/cmTC_a3cfa.dir/src.c.o -o cmTC_a3cfa 
+
+
+Source file was:
+
+#define _POSIX_C_SOURCE 199309L
+#include <time.h>
+double parasail_time(void) {
+    struct timespec ts;
+    /* Works on FreeBSD */
+    long retval = clock_gettime(CLOCK_REALTIME, &ts);
+    return (double)(ts.tv_sec) + (double)(ts.tv_nsec)/1000000000.0;
+}
+int main(void) {
+    double t = parasail_time();
+    return 0;
+}
+

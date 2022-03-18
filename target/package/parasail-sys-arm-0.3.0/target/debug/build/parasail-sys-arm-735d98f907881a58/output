@@ -1,0 +1,2 @@
+cargo:rustc-link-search=native=/Users/jianshuzhao/Github/parasail-sys-arm/target/package/parasail-sys-arm-0.3.0/target/debug/build/parasail-sys-arm-735d98f907881a58/out
+cargo:rustc-link-lib=static=parasail

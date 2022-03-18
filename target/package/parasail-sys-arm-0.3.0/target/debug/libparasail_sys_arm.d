@@ -1,0 +1,1 @@
+/Users/jianshuzhao/Github/parasail-sys-arm/target/package/parasail-sys-arm-0.3.0/target/debug/libparasail_sys_arm.rlib: /Users/jianshuzhao/Github/parasail-sys-arm/target/package/parasail-sys-arm-0.3.0/build.rs /Users/jianshuzhao/Github/parasail-sys-arm/target/package/parasail-sys-arm-0.3.0/src/lib.rs
